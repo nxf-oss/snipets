@@ -1,0 +1,210 @@
+# Blender Project Gitignore
+
+# Blender auto-save files
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+
+# Blender backup files
+*.blend@
+*.blend~
+
+# Blender crash files
+*.blend.crash
+
+# Blender temporary files
+*.bphys
+*.bobj
+*.bvel
+*.bvh
+*.bhash
+*.bnoise
+
+# Blender cache files
+/*.bake
+/cache/
+/tmp/
+/temp/
+
+# Render output directories
+/renders/
+/output/
+/render_output/
+/exports/
+
+# Specific render file formats
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.hdr
+*.tga
+*.tif
+*.tiff
+*.bmp
+*.avi
+*.mp4
+*.mov
+*.mkv
+
+# Blender user preferences (usually user-specific)
+userpref.blend
+
+# Add-on development
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Build/output directories for add-ons
+/build/
+/dist/
+/*.egg-info/
+
+# Blender asset libraries (cache and temporary files)
+/asset_library_temp/
+
+# Geometry nodes cache
+/geometry_nodes/
+
+# Simulation cache
+/sim_cache/
+/fluid_cache/
+/smoke_cache/
+/cloth_cache/
+/particle_cache/
+
+# Video sequencer cache
+/sequencer_cache/
+
+# UV unwrap cache
+/uv_cache/
+
+# Blender start-up file (if you want to ignore custom startup)
+startup.blend
+
+# Blender configuration files
+config.blend
+
+# Backup scripts
+*.py~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Package files
+*.zip
+*.blend*
+
+# Documentation builds
+/docs/_build/
+/site/
+
+# Log files
+*.log
+logs/
+
+# Temporary project files
+/project_temp/
+/autosave/
+
+# Blender kit files (if using BlenderKit)
+/blenderkit/
+
+# Substance plugin cache
+/substance_cache/
+
+# Mesh cache files
+/*.mc
+/*.mcc
+
+# Point cloud files
+/*.pcd
+/*.pts
+
+# Alembic cache
+/*.abc
+
+# USD files (temporary/exported)
+/*.usd
+/*.usda
+/*.usdc
+
+# Collada exports
+/*.dae
+
+# OBJ exports (if you don't want to track exports)
+/*.obj
+/*.mtl
+
+# FBX exports
+/*.fbx
+
+# STL exports
+/*.stl
+
+# GLTF/GLB exports
+/*.gltf
+/*.glb
+
+# PLY exports
+/*.ply
+
+# 3D formats (general)
+/*.3ds
+/*.dxf
+/*.dwg
+
+# Blender preset files (user-specific)
+/presets/
+
+# Scripts temporary files
+/scripts_temp/
+
+# Add-on test files
+/test_output/
+/tests/results/
+
+# Development files
+/dev/
+/development/
+
+# Local configuration
+local_settings.py
+config_local.py
+
+# Large media files (optional - uncomment if needed)
+# /textures/
+# /hdris/
+# /models/
+# /references/
