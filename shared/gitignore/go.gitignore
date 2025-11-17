@@ -1,0 +1,197 @@
+# =============================================
+# COMPREHENSIVE GO (GOLANG) .GITIGNORE
+# =============================================
+
+# =============================================
+# BINARIES AND EXECUTABLES
+# =============================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.prof
+*.trace
+
+# =============================================
+# DEPENDENCIES AND VENDOR
+# =============================================
+vendor/
+Godeps/
+glide/
+vendor.bak/
+vendor.zip
+
+# Go module files (specific cases)
+go.env
+
+# =============================================
+# BUILD ARTIFACTS AND DISTRIBUTION
+# =============================================
+/dist/
+/pkg/
+/bin/
+/build/
+/out/
+/release/
+
+# Specific build directories
+_build/
+_output/
+
+# =============================================
+# GO WORKSPACE AND MODULE FILES
+# =============================================
+go.work
+go.work.sum
+
+# =============================================
+# DEVELOPMENT AND TEMPORARY FILES
+# =============================================
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp
+
+# Auto-generated files
+*_generated.go
+*_generated_test.go
+
+# =============================================
+# IDE AND EDITOR CONFIGURATIONS
+# =============================================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# GoLand
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# =============================================
+# TESTING AND COVERAGE
+# =============================================
+coverage.txt
+profile.cov
+*.cover
+.coverage/
+htmlcov/
+
+# =============================================
+# DOCUMENTATION
+# =============================================
+/doc/
+/godoc/
+apidoc.json
+
+# =============================================
+# OS-SPECIFIC FILES
+# =============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# =============================================
+# DATABASE AND LOCAL DATA
+# =============================================
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# =============================================
+# CONFIGURATION FILES (SENSITIVE)
+# =============================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+config.yaml
+config.yml
+secrets.yaml
+credentials.json
+*.key
+*.pem
+*.crt
+*.cert
+
+# =============================================
+# DOCKER AND CONTAINERIZATION
+# =============================================
+.docker/
+Dockerfile.dev
+docker-compose.override.yml
+
+# =============================================
+# CI/CD
+# =============================================
+.circleci/config.yml.local
+.gha/
+.github/workflows/*.local.yml
+
+# =============================================
+# MISC
+# =============================================
+.cache/
+.installed
+.downloaded
+.deps
+.dependency/
+.terraform/
+.terragrunt-cache/
