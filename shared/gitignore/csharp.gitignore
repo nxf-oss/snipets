@@ -1,0 +1,360 @@
+# C# .NET Gitignore - Professional Enterprise Grade
+
+## Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## Visual Studio
+.vs/
+.vscode/
+.vsconfig
+/*.csproj.user
+/*.vbproj.user
+/*.xproj.user
+/*.dbmdl
+/*.dbproj.user
+/*.suo
+/*.user
+/*.userosscache
+/*.sln.docstates
+/*.ide/
+
+## Rider
+.idea/
+*.sln.iml
+*.csproj.iml
+
+## User-specific files
+*.suo
+*.user
+*.userprefs
+*.usertest
+
+## Build results
+*.VisualState.xml
+BuildLog.htm
+*.[Pp]ublish.xml
+*.pubxml
+*.nupkg
+*.snupkg
+*.spkg
+*.wsp
+*.7z
+*.dll
+*.exe
+*.pdb
+*.xml
+
+## NuGet
+[Nn]u[Gg]et/
+*.nupkg
+*.nuspec
+NuGet.exe
+NuGet.Config
+packages/
+packages-*
+*.symbols.nupkg
+
+## Azure
+*.azure
+*.pfx
+*.publishsettings
+PublishProfiles/
+*.pubxml.user
+
+## Microsoft AJAX
+*.Build.Clean
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## macOS
+.DS_Store
+
+## Linux
+.directory
+
+## Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.unityproj
+*.mat
+*.fbx
+*.obj
+*.tga
+
+## ASP.NET
+App_Data/
+App_Code/
+App_GlobalResources/
+App_LocalResources/
+App_WebReferences/
+App_Browsers/
+App_Data/
+/bin/
+/obj/
+
+## Entity Framework
+Migrations/
+*.mdf
+*.ldf
+
+## Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+## Coverage
+coverage.xml
+*.coverage
+*.coveragexml
+
+## Performance
+profile.json
+*.gcov
+*.gcda
+*.gcno
+
+## StyleCop
+StyleCopReport.xml
+
+## Paket
+.paket/
+paket-files/
+
+## FAKE
+.fake/
+
+## JetBrains
+*.sln.iml
+
+## CodeRush
+.cr/
+
+## Python Tools
+*.pyc
+
+## Cake
+tools/
+!tools/packages.config
+
+## Telerik
+*.[Tt]est[Rr]esults
+
+## BizTalk
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+## Prism
+*.psess
+*.vsp
+*.vspx
+
+## SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+## Microsoft Fakes
+FakesAssemblies/
+
+## Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## Redis
+*.rdb
+*.aof
+
+## Elasticsearch
+data/
+
+## Logs
+*.log
+logs/
+
+## Backup
+*.bak
+*.backup
+
+## Temporary
+*.tmp
+*.temp
+tmp/
+temp/
+
+## IDE
+*.swp
+*.swo
+*~
+
+## Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+## Local History
+.history/
+
+## VS Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+
+## Rider
+.idea/.name
+.idea/.description
+.idea/*.xml
+.idea/*.iml
+.idea/modules.xml
+.idea/.name
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sonarlint/
+.idea/httpRequests/
+
+## Visual Studio Mac
+*.mpack
+
+## MSBuild
+*.csproj.rs
+*.vbproj.rs
+
+## Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+## Kubernetes
+*.kubeconfig
+k8s/
+
+## GitHub Actions
+.github/workflows/*.yml
+!.github/workflows/example.yml
+
+## Azure Functions
+func.exe
+func
+.local.settings.json
+
+## Application Insights
+ApplicationInsights.config
+
+## Windows Communication Foundation
+*.svc
+
+## Windows Presentation Foundation
+*.xbap
+
+## Windows Forms
+*.frx
+
+## ClickOnce
+*.application
+*.manifest
+*.manifestWindows
+*.vsto
+*.xaml
+*.xpt
+*.xrm-ms
+
+## Database
+*.mdf
+*.ldf
+*.sdf
+
+## Others
+*.[Cc]ache
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+*.refresh
+*.ruleset
+*.sln.old
+*.sublime-project
+*.sublime-workspace
+*.tlb
+*.tlh
+*.tmp_proj
+*.unsuccessfulbuild
+*.vbw
+*.vspx
+*.webinfo
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+MigrationBackup/
+[Tt]est[Rr]esults
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+*.sql
+*.bacpac
