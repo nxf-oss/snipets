@@ -1,0 +1,38 @@
+# Kubernetes
+kubeconfig
+*kubeconfig*
+*config.yml
+*config.yaml
+
+# Helm charts (if used)
+charts/*.tgz
+*.tgz
+
+# Temporary files
+tmp/
+temp/
+
+# Sensitive k8s files
+*secret*.yaml
+*secret*.yml
+*password*.yaml
+*password*.yml
+*token*.yaml
+*token*.yml
+
+# Local development
+minikube/
+kind-config.yaml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
