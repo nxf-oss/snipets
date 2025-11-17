@@ -1,0 +1,196 @@
+# =============================================
+# UV SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# UV specific files
+.uv/
+.uvcache/
+.uvlock/
+.uvconfig
+.uvconfig.toml
+uv.lock
+
+# UV virtual environment
+.venv/
+venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# UV cache directories
+.uv/cache/
+.uv/tmp/
+.uv/temp/
+.uv/build/
+.uv/dist/
+.uv/install/
+
+# UV package cache
+.uv/packages/
+.uv/cache/packages/
+.uv/cache/artifacts/
+.uv/cache/wheels/
+.uv/cache/sdist/
+
+# UV build artifacts
+.uv/build/
+.uv/dist/
+.uv/wheels/
+
+# UV lock files
+uv.lock
+.uvlock
+
+# UV configuration
+.uvconfig
+.uvconfig.toml
+uv.toml
+
+# Python distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.Python
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+.poetry/
+
+# PDM
+__pypackages__/
+.pdm.toml
+pdm.lock
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# UV project files
+.uv/project/
+.uv/workspace/
+
+# UV tool configurations
+.uv/tools/
+.uv/plugins/
+
+# UV state files
+.uv/state.json
+.uv/state.toml
+
+# UV logs
+.uv/logs/
+uv.log
+*.uv.log
+
+# UV temporary files
+.uv/tmp/
+.uv/temp/
+*.uv.tmp
+*.uv.temp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+tmp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
