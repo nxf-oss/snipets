@@ -1,0 +1,28 @@
+# Model cache
+.cache/
+~/.cache/huggingface/
+
+# Local model files (large binaries)
+*.bin
+*.safetensors
+*.msgpack
+
+# Training checkpoints
+checkpoint-*/
+runs/
+outputs/
+
+# Dataset cache
+datasets/
+~/.huggingface/datasets/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
