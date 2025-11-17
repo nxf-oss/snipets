@@ -1,0 +1,402 @@
+# Eclipse Gitignore - Professional IDE Grade
+
+# Eclipse Core
+.project
+.classpath
+.settings/
+bin/
+tmp/
+
+# PDT specific
+.buildpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python)
+.pydevproject
+
+# CDT-specific (C/C++)
+.cproject
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+
+# Scala IDE specific (Scala)
+.scala_dependencies
+.worksheet
+
+# Eclipse Neon
+.metadata/
+
+# Code Mix
+.orm.jpa
+
+# Plugin files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Virtual machine crash logs
+*.hprof
+*.dump
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Log files
+*.log
+logs/
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+
+# IDE
+*.swp
+*.swo
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Ant
+ant-launcher.jar
+antlib.xml
+build.xml
+local.properties
+
+# Javadoc
+javadoc/
+
+# Unit test
+/.clover/
+/test-output/
+/test-results/
+/coverage/
+
+# Checkstyle
+checkstyle-output.xml
+checkstyle-checker.xml
+checkstyle-suppressions.xml
+
+# JaCoCo
+/jacoco.exec
+/jacoco-it.exec
+
+# PMD
+pmd.xml
+
+# FindBugs
+findbugs.xml
+
+# EclEmma
+*.em
+*.ec
+
+# Coverage
+coverage/
+
+# SpotBugs
+spotbugsXml.xml
+
+# SonarQube
+.sonar/
+sonar-project.properties
+
+# Jenkins
+.jenkins/
+
+# CI
+.hudson/
+
+# Dependency reduced POM
+dependency-reduced-pom.xml
+
+# Build wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse workspace
+.metadata/
+.metadata/.plugins/
+.metadata/.plugins/org.eclipse.core.resources/.projects/
+.metadata/.plugins/org.eclipse.core.resources/.root/
+.metadata/.plugins/org.eclipse.core.resources/.safetable/
+.metadata/.plugins/org.eclipse.core.runtime/.settings/
+.metadata/.plugins/org.eclipse.e4.workbench/
+.metadata/.plugins/org.eclipse.jdt.core/
+.metadata/.plugins/org.eclipse.jdt.launching/
+.metadata/.plugins/org.eclipse.jst.j2ee.core/
+.metadata/.plugins/org.eclipse.m2e.core/
+.metadata/.plugins/org.eclipse.pde.core/
+.metadata/.plugins/org.eclipse.ui.workbench/
+
+# Remote systems
+.remote/
+
+# Server runtime
+Servers/
+
+# Team project set
+.psf
+
+# WTP
+.jwt
+
+# Web services
+org.eclipse.wst.server.core/
+org.eclipse.wst.server.core.prefs
+
+# JRE
+org.eclipse.jdt.launching/
+
+# Code formatting
+org.eclipse.jdt.core.prefs
+
+# Maven
+org.eclipse.m2e.core.prefs
+
+# Web Tools
+org.eclipse.wst.common.component
+org.eclipse.wst.common.project.facet.core.xml
+org.eclipse.wst.jsdt.core/
+
+# JPA
+.jpa
+
+# Database development
+.derby/
+
+# XML
+.xml
+
+# JavaScript
+.jsdtscope
+
+# Web
+.settings/org.eclipse.wst.jsdt.ui.superType.container
+.settings/org.eclipse.wst.jsdt.ui.superType.name
+
+# Debug
+.debug/
+
+# Launch configurations
+*.launch
+
+# Runtime
+runtime-*
+
+# Workspace save
+.save/
+
+# Working sets
+*.workingset
+
+# Templates
+*.template
+
+# Local history
+.history/
+
+# Patch
+*.patch
+
+# Eclipse application
+eclipse.application
+
+# Product configuration
+eclipse.product
+
+# P2
+p2/
+
+# Update manager
+.update/
+
+# User interface
+.ui/
+
+# Workspace mechanics
+.workspace/
+
+# Build configurations
+.cbuild/
+
+# CDT
+.csettings
+
+# PHP Development Tools
+.phpeclipse
+
+# Dynamic Web Projects
+.dynamicwebproject
+
+# EJB Projects
+.ejbproject
+
+# EAR Projects
+.earproject
+
+# Application Client Projects
+.appclientproject
+
+# Connector Projects
+.connectorproject
+
+# Utility Projects
+.utilityproject
+
+# Web Fragment Projects
+.webfragmentproject
+
+# Web Service Projects
+.webserviceproject
+
+# JAX-WS
+.jaxws
+
+# JAX-RS
+.jaxrs
+
+# JPA Projects
+.jpaproject
+
+# OSGi Projects
+.osgiproject
+
+# Plug-in Projects
+.plugin
+
+# Feature Projects
+.feature
+
+# Update Site Projects
+.updatesite
+
+# Target Platform
+.target
+
+# Maven integration
+.mvn/
+
+# TestNG
+testng.xml
+testng-failed.xml
+testng-suite.xml
+
+# Checkstyle
+checkstyle-result.xml
+
+# PMD
+pmd.xml
+
+# FindBugs
+findbugs.xml
+
+# Java NCSS
+javancss.xml
+
+# JDepend
+jdepend-report.xml
+
+# Cobertura
+cobertura.ser
+
+# EclEmma
+.emma
+
+# JaCoCo
+jacoco.exec
+
+# Sonar
+sonar-project.properties
+
+# Buildship
+buildship/
+
+# Xtext
+.xtext
+
+# EGit
+.egit/
+
+# Mylyn
+.mylyn/
+
+# Window builder
+.wbp/
+
+# Window preferences
+.win/
+
+# Mac preferences
+.mac/
+
+# Linux preferences
+.linux/
