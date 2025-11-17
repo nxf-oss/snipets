@@ -1,0 +1,160 @@
+# =============================================
+# PULUMI SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# Pulumi specific
+Pulumi.*.yaml
+Pulumi.*.yml
+!Pulumi.yaml
+!Pulumi.yml
+
+# Stack state and backups
+.pulumi/
+.pulumi-backup/
+.pulumi-stack-backup/
+.pulumi-debug/
+.pulumi-cache/
+
+# Pulumi credentials
+.pulumi/credentials.json
+.pulumi/access-tokens
+
+# Node.js dependencies
+node_modules/
+.npm
+.yarn/
+.pnp.*
+.yarn-integrity
+
+# Package manager files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+npm-shrinkwrap.json
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# .NET
+bin/
+obj/
+*.user
+*.aps
+*.pdb
+*.userosscache
+*.sln.docstates
+
+# Java
+target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Build outputs
+dist/
+build/
+.out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.vault
+.env.example
+
+# Terraform (often used with Pulumi)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.tfstate.lock.info
+
+# Kubernetes
+kubeconfig
+*kubeconfig*
+
+# Cloud specific
+.aws/
+.azure/
+.gcp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+tmp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Log files
+logs/
+*.log
+lerna-debug.log*
+.pnpm-debug.log*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Sensitive configuration
+*config*.json
+*secret*.yaml
+*password*.yaml
+*token*.yaml
+
+# Pulumi plugins
+.pulumi/plugins/
+.pulumi/bin/
+
+# Pulumi template files
+template.yaml
+template.yml
+
+# Pulumi policy packs
+policy-pack/
+
+# Pulumi automation API
+.pulumi/automation/
