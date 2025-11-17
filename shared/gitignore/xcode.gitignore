@@ -1,0 +1,310 @@
+# =============================================
+# XCODE SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# Xcode build products
+build/
+DerivedData/
+*.build/
+*.xcarchive
+
+# Xcode workspace
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+
+# Xcode project
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/default.*
+
+# Xcode user data
+*.xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcsettings
+
+# Xcode schemes
+*.xcscheme
+xcuserdata/
+xcshareddata/xcschemes/
+
+# Xcode breakpoints
+*.xcbkptlist
+
+# Xcode playgrounds
+*.playground/
+
+# Xcode templates
+*.xctemplate/
+
+# Xcode device support
+DeviceSupport/
+iOS DeviceSupport/
+watchOS DeviceSupport/
+tvOS DeviceSupport/
+
+# Xcode simulators
+CoreSimulator/
+iOS Simulators/
+watchOS Simulators/
+tvOS Simulators/
+
+# Xcode archives
+*.xcarchive/
+Archives/
+
+# Xcode products
+Products/
+
+# Xcode intermediates
+Intermediates.noindex/
+IntermediateBuildFiles/
+
+# Xcode indexes
+index-build/
+.index/
+.index-store/
+
+# Xcode previews
+Previews/
+*.preview/
+
+# Xcode logs
+Logs/
+*.log
+xcodebuild.log
+*.idearchive/
+
+# Xcode debug
+Debug/
+Release/
+*.dSYM/
+*.app.dSYM
+
+# Xcode provisioning
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+
+# Xcode entitlements
+*.entitlements
+
+# Xcode code signatures
+_CodeSignature/
+CodeResources
+CodeSignature/
+
+# Xcode frameworks
+*.framework/
+*.xcframework/
+
+# Xcode bundles
+*.bundle/
+*.app/
+*.appex/
+
+# Xcode storyboards
+*.storyboardc/
+
+# Xcode assets
+*.car
+Assets.car
+
+# Xcode interface builder
+*.nib
+*.xib
+*.storyboard
+
+# Xcode core data
+*.mom
+*.omo
+*.momd
+*.cdm
+
+# Xcode swift
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.swiftinterface
+
+# Xcode objective-c
+*.hmap
+*.link-file-list
+*.apinotes
+
+# Xcode modules
+ModuleCache.noindex/
+*.pcm
+*.pch
+
+# Xcode compilation
+*.o
+*.obj
+*.d
+*.dia
+
+# Xcode linking
+*.tbd
+*.dylib
+*.a
+
+# Xcode symbols
+*.sym
+*.symbols
+
+# Xcode packages
+*.pkg
+*.ipa
+*.dmg
+
+# Xcode documentation
+*.docset
+Documentation/
+docsets/
+
+# Xcode playgrounds data
+Playgrounds/
+*.playgrounddata
+
+# Xcode snippets
+CodeSnippets/
+*.codesnippet
+
+# Xcode file templates
+File Templates/
+*.xctemplate
+
+# Xcode project templates
+Project Templates/
+*.xctemplate
+
+# Xcode color schemes
+*.xccolortheme
+
+# Xcode font schemes
+*.xcfonttheme
+
+# Xcode behavior schemes
+*.xcbehaviors
+
+# Xcode debug sessions
+DebugSessions/
+*.debugsession
+
+# Xcode breakpoints
+Breakpoints_v2.xcbkptlist
+
+# Xcode persistent state
+project.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Xcode shared data
+xcshareddata/
+
+# Xcode swift packages
+.swiftpm/
+*.package.resolved
+Package.resolved
+
+# Xcode source control
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode test results
+TestResults/
+*.xctestresult
+*.xcresult
+
+# Xcode coverage
+*.profraw
+*.profdata
+Coverage/
+*.xccov
+
+# Xcode instruments
+*.trace
+Instruments/
+
+# Xcode memory graphs
+*.memgraph
+*.heap
+
+# Xcode performance
+*.gcda
+*.gcno
+
+# Xcode localization
+*.lproj/
+*.strings
+
+# Xcode core simulator
+com.apple.CoreSimulator/
+
+# Xcode developer files
+Developer/
+Xcode/
+*.xcode
+
+# Xcode preferences
+Library/Developer/
+Library/Preferences/
+
+# Xcode cache
+Library/Caches/
+*.cache
+
+# Xcode temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+._*
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if using in project)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Ruby
+*.gem
+.bundle/
+
+# Java
+*.class
+*.jar
+
+# Go
+*.exe
+*.test
+
+# Rust
+target/
+Cargo.lock
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
