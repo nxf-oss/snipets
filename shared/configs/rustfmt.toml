@@ -1,0 +1,72 @@
+# rustfmt.toml
+# Ultra Complete Rustfmt Configuration for Consistent Code Style
+
+# Maximum width of a line before formatting breaks it.
+max_width = 100
+
+# Tab or space indentation.
+hard_tabs = false
+tab_spaces = 4
+
+# Where to put opening braces.
+brace_style = "AlwaysNextLine" # Options: AlwaysSameLine, AlwaysNextLine
+
+# Reorder imports into a canonical form.
+reorder_imports = true
+reorder_modules = true
+
+# Group imports into standardized sections.
+group_imports = "StdExternalCrate" # Options: Preserve, One, StdExternalCrate
+
+# Control how match statements are formatted.
+match_arm_leading_pipes = "Preserve" # Options: Always, Never, Preserve
+match_block_trailing_comma = true
+
+# Struct formatting rules.
+struct_lit_single_line = false
+format_struct_field_attributes = true
+format_strings = true
+
+# Control use statements.
+imports_granularity = "Crate" # Options: Preserve, Module, Crate, Item
+merge_imports = true
+
+# Enforce trailing commas.
+trailing_comma = "Vertical" # Options: Vertical, Horizontal, Never
+
+# Align parameters, arguments, and struct fields vertically when sensible.
+normalize_comments = true
+normalize_doc_attributes = true
+
+# Format code inside string macro arguments where possible.
+format_macro_matchers = true
+format_macro_bodies = true
+
+# Format inline modules.
+format_code_in_doc_comments = true
+
+# Short or long comments wrapping.
+wrap_comments = true
+comment_width = 100
+
+# Control edition support.
+edition = "2021" # Options: 2015, 2018, 2021, 2024 (unstable)
+
+# Control blank line removal and merging.
+blank_lines_upper_bound = 2
+blank_lines_lower_bound = 0
+
+# Chain indentation for long method chains.
+chain_width = 80
+
+# Closure formatting.
+closure_block_style = "AlwaysNextLine" # Options: AlwaysSameLine, AlwaysNextLine
+
+# Enforce uniform formatting across files.
+unstable_features = true
+
+# Experimental options for nightly toolchains (safe to remove if needed)
+# Requires: rustup + nightly + rustfmt-nightly
+merge_derives = true
+imports_layout = "Vertical" # Options: Horizontal, Vertical
+condense_wildcard_suffixes = true
