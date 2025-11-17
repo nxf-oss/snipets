@@ -1,0 +1,287 @@
+# Ruby Comprehensive GitIgnore
+# This file covers Ruby, Rails, Gem, and common Ruby development patterns
+
+## General Ruby ##
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables.
+# .env
+
+## Specific to Ruby ##
+*.bundle
+.yardoc
+_yardoc/
+doc/
+lib/bundler/man/
+.ruby-version
+
+# MRI 1.9.3 core files
+*.so
+*.o
+*.a
+mkmf.log
+
+## RubyGems ##
+/.bundle
+/vendor/bundle/
+/lib/bundler/
+
+## Rails ##
+*.rbc
+capybara-*.html
+.rspec
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-*
+/public/system/
+/coverage/
+/spec/tmp/
+*.orig
+rerun.txt
+pickle-email-*.html
+
+# Rails project specific
+log/*.log
+tmp/
+!.gitkeep
+
+# Environment files
+.env*
+!.env.example
+
+## Database ##
+*.db
+*.sqlite3
+*.dump
+*.backup
+
+## Documentation ##
+yardoc/
+.yardoc/
+_doc/
+doc/api/
+doc/app/
+doc/features/
+doc/lib/
+doc/plugins/
+doc/controllers/
+doc/helpers/
+doc/models/
+doc/views/
+
+## RSpec ##
+/spec/examples.txt
+/spec/fixtures/
+/spec/reports/
+/spec/support/
+
+## Cucumber ##
+cucumber.yml
+/.cucumber/
+/cucumber/*.log
+
+## Spring ##
+.spring
+/spring/*.pid
+
+## Rake ##
+*.rake_backup
+
+## Bundler ##
+Gemfile.lock
+bin/*
+!.gitkeep
+
+## Jeweler ##
+*.sassc
+.sass-cache
+.scssc
+
+## RubyMine ##
+.idea/*
+
+## VS Code ##
+.vscode/
+*.swp
+*.swo
+
+## OS generated files ##
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Logs ##
+*.log
+logfile
+
+## Temporary files ##
+*~
+*.tmp
+*.swp
+*.swo
+
+## Environment normalization ##
+/.bundle/
+/vendor/bundle
+/lib/bundler/
+
+# Ruby version manager files
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+## Package managers ##
+node_modules/
+yarn-error.log
+package-lock.json
+yarn.lock
+
+## Assets precompilation ##
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules
+
+## Storage (for Active Storage) ##
+/storage/*
+!/storage/.keep
+
+## Rails master key ##
+/config/master.key
+/config/credentials.yml.enc
+
+## Database configurations ##
+/config/database.yml
+
+## Environment variables ##
+.env.local
+.env.*.local
+
+## Cache ##
+.cache/
+
+## Performance monitoring ##
+stackprof/
+
+## Rack Attack ##
+rack_attack.tmp
+
+## Mailers preview ##
+/mailers/previews/
+
+## Testing ##
+/capybara-*.html
+/rspec_report.html
+
+## Deployment ##
+.npmignore
+
+## Git ##
+*.orig
+
+## JetBrains IDEs ##
+.idea/
+
+## Sublime Text ##
+*.sublime-*
+
+## Vim ##
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+## Emacs ##
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+## Markdown ##
+*.html
+
+## Archives ##
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+## Ruby Debugger ##
+byebug_history
+
+## SimpleCov ##
+coverage/
+
+## RDoc ##
+.rdoc_options
+
+## Pow ##
+.powrc
+
+## Puma ##
+puma.pid
+
+## Passenger ##
+passenger.*.pid
+passenger.*.pipe
+
+## Redis ##
+redis.conf
+dump.rdb
+
+## Sidekiq ##
+sidekiq.pid
+
+## Whenever ##
+config/schedule.rb
+
+## Dotenv ##
+.env
+
+## Foreman ##
+.foreman/
+
+## Docker ##
+Dockerfile
+.dockerignore
+
+## Kubernetes ##
+kubernetes/
+
+## Terraform ##
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+## GitHub Actions ##
+.github/
+
+## GitLab CI ##
+.gitlab-ci.yml
+
+## CI ##
+.circleci/
+.travis.yml
