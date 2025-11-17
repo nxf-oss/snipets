@@ -1,0 +1,422 @@
+# =============================================
+# NEXT.JS SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# =============================================
+# NEXT.JS CORE & BUILD OUTPUTS
+# =============================================
+
+# Next.js build outputs
+.next/
+out/
+dist/
+build/
+
+# Next.js cache
+.next/cache/
+.next/analytics/
+.next/trace
+
+# Production builds
+/.next/
+/out/
+
+# Next.js telemetry
+.next/telemetry.js
+
+# Next.js types
+next-env.d.ts
+
+# =============================================
+# DEPENDENCIES & PACKAGE MANAGEMENT
+# =============================================
+
+# Dependencies
+node_modules/
+.npm
+.yarn/
+.pnp.*
+.yarn-integrity
+
+# Package manager files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+npm-shrinkwrap.json
+pnpm-lock.yaml
+
+# Yarn 2
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarnrc.yml
+
+# =============================================
+# ENVIRONMENT VARIABLES & CONFIGURATIONS
+# =============================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.vault
+.env.example
+
+# Configuration files
+.next.config.*.js
+next.config.*.ts
+vercel.json
+now.json
+
+# Runtime configurations
+.runtimeconfig.json
+.runtimeconfig.*.json
+
+# =============================================
+# CACHE & TEMPORARY FILES
+# =============================================
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+tmp/
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+*.swn
+
+# =============================================
+# TYPESCRIPT & COMPILATION
+# =============================================
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Compiled outputs
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# =============================================
+# TESTING & COVERAGE
+# =============================================
+
+# Testing
+/coverage/
+.nyc_output/
+jest-coverage/
+cypress/screenshots/
+cypress/videos/
+playwright-report/
+test-results/
+
+# Test snapshots
+**/__snapshots__/
+*.snap
+
+# =============================================
+# LOGS & DEBUG FILES
+# =============================================
+
+# Log files
+logs/
+*.log
+lerna-debug.log*
+.pnpm-debug.log*
+debug.log
+
+# Debug files
+*.pdb
+*.idb
+
+# Performance monitoring
+.next/profiling/
+
+# =============================================
+# DEPLOYMENT & HOSTING
+# =============================================
+
+# Vercel (Primary Next.js hosting)
+.vercel/
+.vercel/output/
+
+# Netlify
+.netlify/
+.netlify/functions/
+
+# AWS Amplify
+amplify/
+.amplify/
+
+# Cloudflare Pages
+.cfpages/
+
+# Railway
+.railway/
+
+# =============================================
+# IDE & EDITOR CONFIGURATIONS
+# =============================================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# WebStorm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================
+# OPERATING SYSTEM FILES
+# =============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+Thumbs.db
+
+# Linux
+*~
+.directory
+.trash-*
+.Trash-*
+
+# =============================================
+# STORYBOOK & DOCUMENTATION
+# =============================================
+
+# Storybook
+storybook-static/
+.storybook/
+
+# Documentation
+/docs/build/
+/docs/.vuepress/dist/
+/docs/.vitepress/dist/
+
+# =============================================
+# IMAGES & MEDIA ASSETS
+# =============================================
+
+# Optimized images cache
+/.next/cache/images/
+
+# Large media files (optional - uncomment if needed)
+# /public/uploads/
+# /public/assets/raw/
+
+# =============================================
+# DATABASE & LOCAL STORAGE
+# =============================================
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Local storage files
+.local-storage/
+*.localstorage
+
+# =============================================
+# SECURITY & SENSITIVE FILES
+# =============================================
+
+# API keys and secrets
+*.key
+*.pem
+*.crt
+*.cert
+secrets.yaml
+credentials.json
+firebase-*.json
+service-account-*.json
+
+# SSH keys
+*.pub
+id_rsa
+id_dsa
+*.p12
+*.pfx
+
+# =============================================
+# DOCKER & CONTAINERIZATION
+# =============================================
+
+# Docker
+.docker/
+docker-compose.override.yml
+Dockerfile.dev
+
+# Container development
+.devcontainer/
+
+# =============================================
+# CI/CD & AUTOMATION
+# =============================================
+
+# GitHub Actions
+.github/workflows/*.local.yml
+
+# GitLab CI
+.gitlab-ci.yml.local
+
+# CircleCI
+.circleci/config.local.yml
+
+# =============================================
+# PERFORMANCE & MONITORING
+# =============================================
+
+# Performance profiles
+*.cpuprofile
+*.heapsnapshot
+
+# Bundle analysis
+.next/analyze/
+.next/bundle-analyzer/
+
+# =============================================
+# MISC DEVELOPMENT FILES
+# =============================================
+
+# Local development
+*.local
+*.todo
+*.backup
+
+# Patch files
+*.patch
+*.diff
+
+# Lerna
+lerna-debug.log*
+
+# PnP
+.pnp.js
+.pnp.cjs
+
+# =============================================
+# CONTENT MANAGEMENT SYSTEMS
+# =============================================
+
+# Strapi
+public/uploads/
+
+# Sanity
+.sanity/
+
+# Contentful
+.contentful/
+
+# =============================================
+# ECOMMERCE & PAYMENTS
+# =============================================
+
+# Stripe
+stripe-*.json
+
+# Payment processors
+*.pem
+
+# =============================================
+# ANALYTICS & TRACKING
+# =============================================
+
+# Analytics
+.plausible/
+.umami/
+
+# =============================================
+# PROGRESSIVE WEB APP
+# =============================================
+
+# PWA
+sw.js
+workbox-*.js
+.next/sw.js
+
+# =============================================
+# INTERNATIONALIZATION
+# =============================================
+
+# i18n builds
+.next/i18n/
+public/locales/development/
+
+# =============================================
+# CUSTOM SERVER
+# =============================================
+
+# Custom server compiled files
+server.js
+server.js.map
+
+# =============================================
+# EXPERIMENTAL FEATURES
+# =============================================
+
+# Turbopack
+.turbo/
+
+# Next.js experimental
+.next/experimental/
