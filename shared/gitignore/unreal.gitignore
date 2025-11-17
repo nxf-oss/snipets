@@ -1,0 +1,97 @@
+# Unreal Engine Comprehensive GitIgnore
+# Generated for complete project coverage
+
+# Binary and Intermediate directories
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Builds/
+
+# Visual Studio/Microsoft Development Files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj
+*.vbproj
+*.fsproj
+
+# IDE and Editor files
+*.opendb
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Xcode files
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Platform-specific builds
+[Pp]lugins/
+[Pp]latforms/
+[Pp]rofiling/
+
+# Crash reports and diagnostics
+CrashReportClient/
+CrashReports/
+Diagnostics/
+*.dmp
+*.crash
+
+# Content and Asset cache
+Content/DerivedData/
+Content/Build/
+Content/Staged/
+Content/Temp/
+
+# Config files (optional - uncomment if needed)
+# Config/
+
+# Log files
+Logs/
+*.log
+*.txt
+
+# Packaging and Distribution
+Dist/
+Packaged/
+Staged/
+*.pak
+*.ucas
+*.utoc
+
+# Perforce integration
+*.p4ignore
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific generated files
+*.generated.h
+*.generated.cpp
+
+# Shader cache
+ShaderCache/
+
+# Movie Render Queue
+MovieRenderQueue/
+MoviePipeline/
