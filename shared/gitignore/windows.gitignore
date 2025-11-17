@@ -1,0 +1,180 @@
+# =============================================
+# WINDOWS SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+*.url
+
+# Windows shortcuts folder
+*.library-ms
+
+# Windows shadow copy
+*.WLK
+
+# Windows temporary files
+~$*
+*.~mp
+*.tmp
+*.temp
+._*
+*.syd
+
+# Windows error reports
+*.mdmp
+*.minidump
+*.dmp
+*.etl
+*.evtx
+
+# Windows hyper-v
+*.avhd
+*.avhdx
+*.vhd
+*.vhdx
+*.vmcx
+*.vmrs
+*.vmgs
+
+# Windows container
+*.wim
+*.esd
+
+# Windows defender
+*.quarantine
+MsftEcc*.cat
+
+# Windows update
+*.download
+*.etl
+*.evt
+*.evtx
+
+# Windows system files
+hiberfil.sys
+pagefile.sys
+swapfile.sys
+WINFILE.BAK
+
+# Windows prefetch
+*.pf
+Prefetch/
+
+# Windows crash dumps
+*.dmp
+Memory.dmp
+Minidump/
+
+# Windows event logs
+*.evtx
+*.etl
+*.evt
+
+# Windows registry hives
+*.dat
+*.hiv
+*.log1
+*.log2
+
+# Windows security
+*.edb
+*.jrs
+*.chk
+*.sdb
+
+# Windows search
+*.search-ms
+Windows.edb
+
+# Windows subsystem for linux
+wslconfig
+
+# Windows terminal
+wt.exe
+
+# Windows apps
+MicrosoftEdge*.exe
+
+# Windows office temporary files
+~$*
+*.tmp
+
+# OneDrive
+OneDrive/
+
+# Microsoft Teams
+Microsoft Teams/
+
+# Outlook
+*.pst
+*.ost
+
+# Windows developer
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows docker
+.docker/
+
+# Windows node modules
+node_modules/
+
+# Windows python
+__pycache__/
+*.pyc
+
+# Windows java
+*.class
+*.jar
+
+# Windows c#
+*.csproj.user
+*.cache
+*.dll
+*.exe
+
+# Windows git
+.git/
+.gitattributes
+
+# Windows ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows logs
+*.log
+logs/
+
+# Windows backups
+*.bak
+*.backup
+
+# Windows temporary folders
+tmp/
+temp/
+.tmp/
+.temp/
