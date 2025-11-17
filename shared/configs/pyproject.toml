@@ -1,0 +1,122 @@
+# pyproject.toml
+# Universal Python Project Configuration Template
+# Supports: Build, Linting, Formatting, Testing, Type Checking, Docs, Packaging
+
+[project]
+name = "your-package-name"
+version = "0.1.0"
+description = "Project description goes here."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["python", "example", "template"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language:: Python",
+  "Programming Language:: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  # "requests>=2.32.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-cov>=5.0.0",
+  "ruff>=0.6.8",
+  "black>=24.4.2",
+  "mypy>=1.11.0",
+  "pre-commit>=4.0.1",
+  "build>=1.2.2",
+  "twine>=5.1.1",
+]
+docs = [
+  "sphinx>=7.4.0",
+  "furo>=2024.8.6",
+]
+
+[project.urls]
+homepage = "https://example.com"
+documentation = "https://example.com/docs"
+repository = "https://example.com/repo"
+issues = "https://example.com/issues"
+
+[build-system]
+requires = ["setuptools>=75.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+##########################
+# Ruff: Lint + Format Fix
+##########################
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+fix = true
+unsafe-fixes = false
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+line-ending = "lf"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "N", "D", "UP", "S", "I", "B"]
+ignore = []
+unfixable = []
+
+##########################
+# Black (Formatter)
+##########################
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+fast = false
+
+##########################
+# Mypy (Type Checking)
+##########################
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+##########################
+# Pytest
+##########################
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "--cov --cov-report=term-missing"
+testpaths = ["tests"]
+
+##########################
+# Coverage settings
+##########################
+[tool.coverage.run]
+branch = true
+source = ["src"]
+
+[tool.coverage.report]
+omit = ["tests/*"]
+show_missing = true
+fail_under = 90
+
+##########################
+# Pre-commit
+##########################
+[tool.pre-commit]
+repos = [
+  { repo = "https://github.com/astral-sh/ruff-pre-commit", rev = "v0.6.8", hooks = [{ id = "ruff" }] },
+  { repo = "https://github.com/psf/black", rev = "24.4.2", hooks = [{ id = "black" }] }
+]
+
+##########################
+# Sphinx Docs
+##########################
+[tool.sphinx]
+builder = "html"
