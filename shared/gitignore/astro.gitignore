@@ -1,0 +1,205 @@
+# Astro build output
+dist/
+.build/
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Astro specific
+.astro/
+
+# Cache directories
+.cache/
+.turbo/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Local Netlify folder
+.netlify
+
+# Svelte
+.svelte-kit
+
+# Vite
+.vite/
+
+# Production build cache
+**/build/
+**/.rspack/
+
+# Storybook
+storybook-static
+*.stories.ts
+*.stories.js
+
+# Testing
+__tests__/__snapshots__/
+
+# Temporary folders
+tmp/
+temp/
+
+# Local development
+*.local
+
+# Package manager specific
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: if you use Content Collections (Astro), you might want to ignore generated types
+# .astro/types.d.ts
+
+# Optional: if you use Astro DB
+# .astro/db/
+# .astro/db_types.d.ts
+
+# Optional: if you use Astro Studio
+# .astro/studio.db
+# .astro/studio.db-journal
+
+# Build time generated files (if any)
+generated/
+
+# Markdown to HTML conversion cache (if using any plugins)
+.mdx-cache/
+
+# Image optimization cache (if using @astrojs/image)
+.astro-image-cache/
+# These are examples of files you usually WANT to commit:
+!astro.config.mjs
+!src/
+!public/  # But be careful with large media files
+!tsconfig.json
+!tailwind.config.js
+!components/
+!layouts/
+!pages/
