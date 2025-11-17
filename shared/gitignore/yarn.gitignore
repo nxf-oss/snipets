@@ -1,0 +1,213 @@
+# =============================================
+# YARN SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# Yarn specific files
+.yarn/
+.yarnrc.yml
+.yarnrc
+.yarnignore
+.yarn-metadata.json
+.yarn-integrity
+
+# Yarn cache directories
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.yarn/build-state.yml
+.yarn/cache.tmp
+
+# Yarn temporary files
+.yarn/tmp/
+.yarn/temp/
+*.yarn-temp
+*.yarn-tmp
+
+# Yarn global cache
+.yarn/global/
+.yarn/berry/
+.yarn/sdks/
+.yarn/versions/
+
+# Yarn package artifacts
+.yarn/artifacts/
+.yarn/packages/
+.yarn/compression/
+
+# Yarn virtual packages
+.yarn/virtual/
+
+# Yarn PnP files
+.pnp.*
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+
+# Yarn zero-installs
+.yarn/zero-installs/
+
+# Yarn releases
+.yarn/releases/
+
+# Yarn plugins
+.yarn/plugins/
+.yarn/plugins.yml
+.yarn/patches/
+
+# Yarn SDKs
+.yarn/sdks/
+
+# Yarn versioning
+.yarn/versions/
+
+# Yarn logs
+.yarn/logs/
+yarn-error.log
+yarn-debug.log
+*.yarn.log
+
+# Node modules (Yarn manages these)
+node_modules/
+**/node_modules/
+
+# Package manager conflicts
+package-lock.json
+npm-shrinkwrap.json
+pnpm-lock.yaml
+
+# Yarn workspace files
+.yarn/workspaces/
+.yarn/workspace.json
+
+# Yarn configuration overrides
+.yarnrc.local
+.yarnrc.override
+
+# Yarn temporary installations
+.yarn/temp-install/
+.yarn/partial-install/
+
+# Yarn integrity checks
+.yarn/integrity/
+.yarn/checksums/
+
+# Yarn performance cache
+.yarn/perf/
+.yarn/timing/
+
+# Yarn compression cache
+.yarn/compression/
+
+# Yarn network cache
+.yarn/network/
+
+# Yarn mirror cache
+.yarn/mirror/
+
+# Yarn registry cache
+.yarn/registry/
+
+# Yarn dependency tree
+.yarn/dependencies/
+.yarn/dependency-tree/
+
+# Yarn resolution cache
+.yarn/resolutions/
+.yarn/resolution-cache/
+
+# Yarn lock files (optional - uncomment if you don't want to commit)
+# yarn.lock
+
+# Yarn audit files
+.yarn/audit/
+yarn-audit.html
+yarn-audit.json
+
+# Yarn outdated files
+yarn-outdated.json
+
+# Yarn licenses
+.yarn/licenses/
+yarn-licenses.json
+
+# Yarn why files
+yarn-why.json
+
+# Yarn config files
+.yarn/config.json
+.yarn/settings.json
+
+# Yarn project files
+.yarn/project/
+.yarn/project.json
+
+# Yarn workspace root
+.yarn/workspace-root/
+
+# Yarn local files
+.yarn/local/
+
+# Yarn global files
+.yarn/global/
+
+# Yarn persistent cache
+.yarn/persistent/
+
+# Yarn transient cache
+.yarn/transient/
+
+# Yarn immutable cache
+.yarn/immutable/
+
+# Yarn mutable cache
+.yarn/mutable/
+
+# Yarn shared cache
+.yarn/shared/
+
+# Yarn private cache
+.yarn/private/
+
+# Yarn public cache
+.yarn/public/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+.nuxt/
+
+# Testing
+/coverage/
+.nyc_output/
+
+# Backup files
+*.bak
+*.backup
