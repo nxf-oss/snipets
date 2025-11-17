@@ -1,0 +1,420 @@
+# Swift Gitignore - Professional iOS/macOS Development Grade
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## Compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode default is to use packages to work with multiple package managers.
+# It is recommended to commit the package manifest, but to avoid
+# accidentally including the dependency source code in your main repository,
+# it is recommended to add Packages/ to your .gitignore
+# (but keep Package.resolved and Package.pins if you use version locking).
+
+.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repository.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# App specific
+*.xcodeproj
+!default.xcodeproj
+*.xcworkspace
+!default.xcworkspace
+*.xcscheme
+*.xcsettings
+*.xcuserstate
+
+# Swift packages
+.swiftpm/
+Package.resolved
+Package.pins
+.build/
+*.xcodeproj
+*.xcworkspace
+
+# Swift build artifacts
+.build/
+*.build/
+*.swiftmodule
+*.swiftdoc
+*.swiftinterface
+*.swiftsourceinfo
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.resolved
+Package.pins
+
+# Carthage
+Carthage/
+Carthage/Build/
+Carthage/Checkouts/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# AppCode
+.idea/
+
+# VSCode
+.vscode/
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.app
+*.app.dSYM
+*.app.zip
+
+# Previews
+Previews/
+
+# Instruments
+*.trace
+*.tracearchive
+
+# Localization
+*.lproj/localizable.strings
+
+# Core Data
+*.mom
+*.momd
+*.omo
+*.cdm
+*.cdm.d
+
+# CloudKit
+CloudKit/
+*.ckasset
+
+# iCloud
+iCloud/
+*.icloud
+
+# App Thinning
+*.appthinning
+*.appx
+*.appxsym
+
+# App Store Connect
+*.itmsp
+*.itproj
+
+# Archives
+*.xcarchive
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# Certificates
+*.cer
+*.p12
+*.pem
+
+# Keychains
+*.keychain
+
+# Interface Builder
+*.nib
+*.storyboard
+*.storyboardc
+
+# Asset catalogs
+*.xcassets
+
+# SwiftUI Previews
+*.swiftpm
+
+# Playgrounds
+*.playground
+Playgrounds/
+
+# Documentation
+docs/
+.build/
+*.docset
+
+# Swift Format
+.swiftformat
+
+# SwiftLint
+.swiftlint.yml
+
+# Periphery
+.periphery.yml
+
+# Tuist
+Tuist/
+.tuist-bin/
+.projectdescription/
+project.swift
+
+# Mint
+Mintfile
+.mint/
+
+# Bazel
+bazel-*
+.bazelrc.user
+.bazelversion
+
+# Buck
+.buckconfig
+.buckd/
+.buckversion
+
+# Rome
+rome/
+.rome/
+
+# SPM Build plugins
+.build/plugins/
+
+# Xcode Cloud
+.xcode/
+.xcodecloud/
+
+# Swift-DocC
+.docc/
+
+# Regex for build outputs that might appear in multiple places
+**/build/
+**/DerivedData/
+**/*.app
+**/*.app.dSYM
+**/*.ipa
+**/*.framework
+**/*.xctest
+
+# Xcode generated files
+*.xccurrentversion
+*.xcsettings
+*.xcscmblueprint
+*.xccheckout
+*.xcplugindata
+*.xcscheme
+*.xcuserstate
+*.xcworkspacedata
+
+# Swift concurrency
+*.swiftasync
+*.swiftsync
+
+# Distributed actors
+*.swiftdistributed
+
+# Mac App Store
+*.pkg
+*.dmg
+
+# Test results
+*.test_result
+test-results/
+*.xcresult
+
+# Coverage
+*.profraw
+*.profdata
+coverage/
+*.gcda
+*.gcno
+
+# Memory debugging
+*.heap
+*.memgraph
+
+# Performance profiling
+*.trace
+*.instrs
+
+# LLDB
+.lldb/
+*.lldb
+
+# Package collections
+PackageCollections/
+.collections/
+
+# Plugins
+.plugins/
+.swiftpm/plugins/
+
+# Security
+*.secure*
+*_key*
+*_secret*
+*_token*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Documentation builds
+/docs/_build/
+/site/
+
+# Junk files
+*.orig
+*.rej
+
+# Performance logs
+*.cpuprofile
+*.heapsnapshot
+
+# Memory dumps
+*.heapsnapshot
+*.cores
