@@ -1,0 +1,204 @@
+# Ansible specific ignores
+
+# Backup files created by Ansible
+*.retry
+*.backup
+*.bak
+
+# Temporary files created during playbook execution
+*.tmp
+*.temp
+
+# Ansible vault password files (should not be committed)
+vault_password.txt
+.vault_pass
+*.vault_pass
+vault-secret.txt
+
+# Ansible configuration files (can be committed but often contain local settings)
+# ansible.cfg  # Uncomment if you don't want to commit ansible.cfg
+
+# Galaxy installation files
+galaxy.yml
+*.tar.gz
+
+# Role testing directories
+tests/test.yml
+tests/roles/
+.molecule/
+test/
+tests/output/
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+
+# Inventory files with sensitive data (customize as needed)
+# inventories/production/group_vars/all/vault
+# inventories/production/group_vars/*/vault.yml
+# inventories/production/host_vars/*/vault.yml
+
+# Sensitive variable files
+*_secret.yml
+*_secrets.yml
+*_vault.yml
+*_passwords.yml
+
+# Log files
+ansible.log
+*.log
+logs/
+
+# Development and IDE files
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*#
+.\#*
+\#*#
+
+# OS generated files
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Python specific (since Ansible is Python-based)
+*.egg-info/
+dist/
+build/
+.python-version
+
+# Virtual environments
+venv/
+env/
+.venv/
+virtualenv/
+
+# Collections and roles development
+collections/ansible_collections/*/  # But keep the namespace and collection name structure
+!collections/ansible_collections/namespace/
+!collections/ansible_collections/namespace/collection/
+
+# Molecule testing framework
+.molecule
+.molecule.yml
+.cache
+.pytest_cache/
+
+# Ansible Lint
+.ansible-lint
+.ansible-lint-*
+
+# Plugin development
+plugins/modules/*.pyc
+plugins/lookup/*.pyc
+plugins/filter/*.pyc
+plugins/action/*.pyc
+
+# Documentation builds
+site/
+_build/
+
+# Junk files
+*.orig
+*.rej
+
+# Certificate files (should not be committed)
+*.pem
+*.key
+*.crt
+*.csr
+
+# SSH keys
+id_rsa
+id_dsa
+*.pkey
+
+# Terraform state files (if using Terraform with Ansible)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Packer (if using Packer with Ansible)
+packer_cache/
+*.box
+
+# CI/CD artifacts
+.ci/
+.jenkins/
+.gitlab-ci.yml
+
+# Local host configurations
+localhost.yml
+local.yml
+
+# Development environment files
+.devcontainer/
+docker-compose.override.yml
+
+# Ansible galaxy install results
+roles/external/
+collections/ansible_collections/*/*/
+
+# But keep the requirements files
+!roles/requirements.yml
+!collections/requirements.yml
+
+# Logs from ansible-playbook commands
+ansible-playbook*.log
+
+# Coverage reports (if testing)
+.coverage
+htmlcov/
+
+# pytest
+.pytest_cache/
+test-results/
+
+# Benchmarking results
+benchmarks/
+
+# JUnit test results
+junit/
+test-results.xml
+
+# Local development variables
+local_vars.yml
+development.yml
+dev_vars.yml
+
+# Backup directories
+backup/
+backups/
+# These are examples of files you usually WANT to commit:
+!playbooks/*.yml
+!roles/*/tasks/main.yml
+!roles/*/handlers/main.yml
+!roles/*/defaults/main.yml
+!inventories/production/group_vars/all/*.yml  # (except vault files)
+!ansible.cfg  # (if it contains project-specific settings)
+!requirements.yml
