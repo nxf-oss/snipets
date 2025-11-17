@@ -1,0 +1,138 @@
+# =============================================
+# VSCODE SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# VSCode main directory
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# VSCode user settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-snippets
+
+# VSCode local history
+.vscode/localHistory/
+
+# VSCode workspace storage
+.vscode/workspaceStorage/
+
+# VSCode profile
+.vscode/profile/
+
+# VSCode machine specific
+.vscode/machineid
+
+# VSCode user data
+.vscode/User/
+.vscode/globalStorage/
+.vscode/state.vscdb
+
+# VSCode backup files
+.vscode/backups/
+
+# VSCode snippets
+.vscode/snippets/
+
+# VSCode debug
+.vscode/debug.log
+.vscode/debugConsole/
+
+# VSCode extensions
+.vscode/extensions/
+.vscode/.obsolete
+
+# VSCode workspace files
+*.code-workspace
+*.vscode-workspace
+
+# VSCode test
+.vscode-test/
+
+# VSCode insiders
+.vscode-insiders/
+
+# VSCode configuration
+.vscode/argv.json
+.vscode/settings.json
+.vscode/keybindings.json
+
+# VSCode cache
+.vscode/cache/
+.vscode/CachedExtensions/
+.vscode/CachedExtensionVSIXs/
+
+# VSCode logs
+.vscode/logs/
+.vscode/*.log
+.vscode/ipc.log
+.vscode/dataprotocol.log
+
+# VSCode remote
+.vscode-remote/
+.vscode-remote-data/
+.vscode-server/
+.vscode-server-insiders/
+
+# VSCode profiles
+.vscode/profiles/
+
+# VSCode language servers
+.vscode/lsp-trace/
+
+# VSCode terminal
+.vscode/terminal-*
+
+# VSCode workspace trust
+.vscode/workspaceTrust/
+
+# VSCode notebook
+.vscode/notebooks/
+
+# VSCode scm
+.vscode/scm/
+
+# VSCode task outputs
+.vscode/task-outputs/
+
+# VSCode extension development
+.vscode/.typescript/
+.vscode/.debugger/
+.vscode/.installer/
+
+# VSCode user keybindings
+.vscode/keybindings.json
+
+# VSCode user locale
+.vscode/locale.json
+
+# VSCode user snippets
+.vscode/snippets/
+
+# VSCode sync
+.vscode/sync/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
