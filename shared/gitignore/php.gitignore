@@ -1,0 +1,159 @@
+# =============================================
+# PHP SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# PHP specific
+vendor/
+composer.lock
+composer.phar
+/composer.lock
+
+# Laravel specific
+bootstrap/cache/
+storage/framework/cache/
+storage/framework/views/
+storage/framework/sessions/
+storage/logs/
+.env
+.env.backup
+.env.production
+
+# Symfony specific
+var/
+vendor/
+/var/cache/
+/var/logs/
+/var/sessions/
+/app/config/parameters.yml
+/bin/
+!/bin/console
+!/bin/phpunit
+/web/bundles/
+/app/bootstrap.php.cache
+/app/phpunit.xml
+/phpunit.xml
+/app/var/
+
+# WordPress specific
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/cache/supercache/
+wp-content/plugins/hello.php
+wp-content/mu-plugins/
+sitemap.xml
+sitemap.xml.gz
+.htaccess
+
+# CakePHP specific
+/app/tmp/
+/app/logs/
+/app/config/core.php
+/app/config/database.php
+/app/config/email.php
+/app/config/bootstrap.php
+/app/config/routes.php
+/app/webroot/js/ckeditor/
+/app/webroot/js/ckfinder/
+
+# Drupal specific
+sites/*/files/
+sites/*/private/
+sites/default/settings.php
+sites/default/files/
+sites/default/private/
+
+# Compiled class file
+*.php
+.phpunit.result.cache
+
+# Composer
+/vendor/
+/composer.lock
+
+# Laravel
+bootstrap/cache/
+storage/*.key
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+
+# Environment file
+.env
+
+# PHPUnit
+.phpunit.result.cache
+
+# Xdebug
+xdebug.log
+xdebug.trace
+*.prof
+
+# PHP CS Fixer
+.php_cs
+.php_cs.cache
+
+# PHPStan
+.phpstan/
+.phpstan.result.cache
+
+# Psalm
+.psalm/
+psalm.xml
+psalm.baseline.xml
+
+# PHP Intelephense
+intelephense-*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+tmp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+
+# Cache
+.cache/
+
+# Build artifacts
+dist/
+build/
