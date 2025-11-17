@@ -1,0 +1,208 @@
+# =============================================
+# VIM SUPER COMPREHENSIVE .GITIGNORE
+# =============================================
+
+# Vim swap files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.sw[a-p]
+*.un~
+Session.vim
+.netrwhist
+
+# Vim backup files
+*~
+*.bak
+*.backup
+[._]*.un~
+*.old
+*.save
+
+# Vim undo files
+[._]*.un~
+*.undo
+[._]*.undo
+
+# Vim session files
+Session.vim
+*.session
+*.vimsession
+
+# Vim view files
+*.view
+[._]*.view
+
+# Vim temporary files
+*.tmp
+*.temp
+.tmp.vim
+.temp.vim
+
+# Vim info files
+.viminfo
+*.viminfo
+._viminfo
+
+# Vim tags
+tags
+.tags
+.tags_sorted
+
+# Vim cscope
+cscope.*
+.out
+*.out
+
+# Vim netrw
+.netrwhist
+.netrw.banner
+
+# Vim spell files
+*.spl
+*.sug
+.spell/
+
+# Vim plugin files
+pack/*/start/
+pack/*/opt/
+bundle/
+autoload/
+plugin/
+after/
+
+# Vim runtime files
+.runtime/
+.runtimeinfo
+
+# Vim configuration
+.vimrc
+._vimrc
+.exrc
+.gvimrc
+._gvimrc
+.vimrc.local
+.gvimrc.local
+
+# Vim bundles
+.bundles/
+.bundle/
+
+# Vim packages
+packages/
+
+# Vim backups directory
+backup/
+.backups/
+
+# Vim swap directory
+swap/
+.swp/
+
+# Vim undo directory
+undo/
+.undo/
+
+# Vim view directory
+view/
+.views/
+
+# Vim session directory
+session/
+.sessions/
+
+# Vim temporary directory
+tmp/
+.tmp/
+
+# Vim state files
+.state/
+.vimstate
+
+# Vim marks
+.vimmarks
+
+# Vim registers
+.registers
+
+# Vim history
+.history/
+.vim_history
+
+# Vim macros
+.macros/
+.vimmacros
+
+# Vim abbreviations
+.abbreviations
+.vimabbreviations
+
+# Vim mappings
+.mappings
+.vimmappings
+
+# Vim commands
+.commands
+.vimcommands
+
+# Vim plugins cache
+.cache/
+.vim/cache/
+
+# Vim bundles cache
+.bundles.cache/
+
+# Vim syntax cache
+.syntax/
+.vim/syntax/
+
+# Vim indent cache
+.indent/
+.vim/indent/
+
+# Vim ftplugin cache
+.ftplugin/
+.vim/ftplugin/
+
+# Vim after cache
+.after/
+.vim/after/
+
+# Vim autoload cache
+.autoload/
+.vim/autoload/
+
+# Vim colors cache
+.colors/
+.vim/colors/
+
+# Vim compiler cache
+.compiler/
+.vim/compiler/
+
+# Vim doc cache
+.doc/
+.vim/doc/
+
+# Vim plugin cache
+.plugin/
+.vim/plugin/
+
+# Vim spell cache
+.spell/
+.vim/spell/
+
+# Vim syntax cache
+.syntax/
+.vim/syntax/
+
+# Vim pack cache
+.pack/
+.vim/pack/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
