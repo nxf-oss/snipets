@@ -1,0 +1,724 @@
+# Sublime Text Gitignore - Professional Editor Configuration Grade
+
+# Sublime Text project files
+*.sublime-project
+*.sublime-workspace
+
+# Sublime Text user settings
+*.sublime-settings
+
+# Sublime Text session files
+*.sublime-session
+
+# Sublime Text backup files
+*.sublime-backup
+
+# Sublime Text cache files
+Cache/
+*.cache
+
+# Sublime Text auto-save files
+*.sublime-auto-save
+
+# Sublime Text build results
+*.sublime-build-results
+
+# Sublime Text find results
+*.sublime-find-results
+
+# Sublime Text grep results
+*.sublime-grep-results
+
+# Sublime Text project backup
+*.sublime-project-backup
+
+# Sublime Text workspace backup
+*.sublime-workspace-backup
+
+# Sublime Text session backup
+*.sublime-session-backup
+
+# Sublime Text settings backup
+*.sublime-settings-backup
+
+# Sublime Text user backup
+*.sublime-user-backup
+
+# Sublime Text package control
+Package Control.cache/
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.github-oauth
+Package Control.package-control-ca-bundle
+Package Control.user-ca-bundle
+
+# Sublime Text installed packages
+Installed Packages/
+User/Installed Packages/
+User/Package Control.cache/
+User/Package Control.last-run
+User/Package Control.ca-list
+User/Package Control.ca-bundle
+User/Package Control.system-ca-bundle
+User/Package Control.github-oauth
+User/Package Control.package-control-ca-bundle
+User/Package Control.user-ca-bundle
+
+# Sublime Text package development
+Packages/User/
+Packages/*/messages/
+Packages/*/tests/
+Packages/*/docs/
+
+# Sublime Text lint results
+*.sublime-lint
+
+# Sublime Text test results
+*.sublime-test
+
+# Sublime Text coverage results
+*.sublime-coverage
+
+# Sublime Text benchmark results
+*.sublime-benchmark
+
+# Sublime Text profile results
+*.sublime-profile
+
+# Sublime Text debug results
+*.sublime-debug
+
+# Sublime Text trace results
+*.sublime-trace
+
+# Sublime Text memory results
+*.sublime-memory
+
+# Sublime Text performance results
+*.sublime-performance
+
+# Sublime Text CPU results
+*.sublime-cpu
+
+# Sublime Text GPU results
+*.sublime-gpu
+
+# Sublime Text network results
+*.sublime-network
+
+# Sublime Text disk results
+*.sublime-disk
+
+# Sublime Text system results
+*.sublime-system
+
+# Sublime Text process results
+*.sublime-process
+
+# Sublime Text thread results
+*.sublime-thread
+
+# Sublime Text lock results
+*.sublime-lock
+
+# Sublime Text mutex results
+*.sublime-mutex
+
+# Sublime Text semaphore results
+*.sublime-semaphore
+
+# Sublime Text event results
+*.sublime-event
+
+# Sublime Text timer results
+*.sublime-timer
+
+# Sublime Text file results
+*.sublime-file
+
+# Sublime Text directory results
+*.sublime-directory
+
+# Sublime Text socket results
+*.sublime-socket
+
+# Sublime Text pipe results
+*.sublime-pipe
+
+# Sublime Text device results
+*.sublime-device
+
+# Sublime Text window results
+*.sublime-window
+
+# Sublime Text menu results
+*.sublime-menu
+
+# Sublime Text dialog results
+*.sublime-dialog
+
+# Sublime Text control results
+*.sublime-control
+
+# Sublime Text widget results
+*.sublime-widget
+
+# Sublime Text container results
+*.sublime-container
+
+# Sublime Text layout results
+*.sublime-layout
+
+# Sublime Text view results
+*.sublime-view
+
+# Sublime Text panel results
+*.sublime-panel
+
+# Sublime Text tab results
+*.sublime-tab
+
+# Sublime Text group results
+*.sublime-group
+
+# Sublime Text split results
+*.sublime-split
+
+# Sublime Text workspace results
+*.sublime-workspace
+
+# Sublime Text project results
+*.sublime-project
+
+# Sublime Text settings results
+*.sublime-settings
+
+# Sublime Text keymap results
+*.sublime-keymap
+
+# Sublime Text theme results
+*.sublime-theme
+
+# Sublime Text color scheme results
+*.sublime-color-scheme
+
+# Sublime Text syntax results
+*.sublime-syntax
+
+# Sublime Text command results
+*.sublime-commands
+
+# Sublime Text menu results
+*.sublime-menu
+
+# Sublime Text mouse map results
+*.sublime-mousemap
+
+# Sublime Text context menu results
+*.sublime-context-menu
+
+# Sublime Text toolbar results
+*.sublime-toolbar
+
+# Sublime Text status bar results
+*.sublime-status-bar
+
+# Sublime Text quick panel results
+*.sublime-quick-panel
+
+# Sublime Text command palette results
+*.sublime-command-palette
+
+# Sublime Text goto anything results
+*.sublime-goto-anything
+
+# Sublime Text symbol results
+*.sublime-symbol
+
+# Sublime Text definition results
+*.sublime-definition
+
+# Sublime Text reference results
+*.sublime-reference
+
+# Sublime Text implementation results
+*.sublime-implementation
+
+# Sublime Text type definition results
+*.sublime-type-definition
+
+# Sublime Text hover results
+*.sublime-hover
+
+# Sublime Text completion results
+*.sublime-completion
+
+# Sublime Text signature help results
+*.sublime-signature-help
+
+# Sublime Text code action results
+*.sublime-code-action
+
+# Sublime Text rename results
+*.sublime-rename
+
+# Sublime Text format results
+*.sublime-format
+
+# Sublime Text organize imports results
+*.sublime-organize-imports
+
+# Sublime Text refactor results
+*.sublime-refactor
+
+# Sublime Text extract results
+*.sublime-extract
+
+# Sublime Text inline results
+*.sublime-inline
+
+# Sublime Text move results
+*.sublime-move
+
+# Sublime Text change signature results
+*.sublime-change-signature
+
+# Sublime Text convert results
+*.sublime-convert
+
+# Sublime Text surround with results
+*.sublime-surround-with
+
+# Sublime Text comment results
+*.sublime-comment
+
+# Sublime Text uncomment results
+*.sublime-uncomment
+
+# Sublime Text toggle comment results
+*.sublime-toggle-comment
+
+# Sublime Text block comment results
+*.sublime-block-comment
+
+# Sublime Text line comment results
+*.sublime-line-comment
+
+# Sublime Text stream comment results
+*.sublime-stream-comment
+
+# Sublime Text box comment results
+*.sublime-box-comment
+
+# Sublime Text emoji comment results
+*.sublime-emoji-comment
+
+# Sublime Text fold results
+*.sublime-fold
+
+# Sublime Text unfold results
+*.sublime-unfold
+
+# Sublime Text toggle fold results
+*.sublime-toggle-fold
+
+# Sublime Text fold all results
+*.sublime-fold-all
+
+# Sublime Text unfold all results
+*.sublime-unfold-all
+
+# Sublime Text fold level results
+*.sublime-fold-level
+
+# Sublime Text fold markers results
+*.sublime-fold-markers
+
+# Sublime Text indent results
+*.sublime-indent
+
+# Sublime Text unindent results
+*.sublime-unindent
+
+# Sublime Text auto indent results
+*.sublime-auto-indent
+
+# Sublime Text smart indent results
+*.sublime-smart-indent
+
+# Sublime Text reindent results
+*.sublime-reindent
+
+# Sublime Text convert indent results
+*.sublime-convert-indent
+
+# Sublime Text detect indent results
+*.sublime-detect-indent
+
+# Sublime Text trim indent results
+*.sublime-trim-indent
+
+# Sublime Text trim trailing whitespace results
+*.sublime-trim-trailing-whitespace
+
+# Sublime Text ensure newline at eof results
+*.sublime-ensure-newline-at-eof
+
+# Sublime Text convert eol results
+*.sublime-convert-eol
+
+# Sublime Text convert encoding results
+*.sublime-convert-encoding
+
+# Sublime Text convert line endings results
+*.sublime-convert-line-endings
+
+# Sublime Text convert tabs to spaces results
+*.sublime-convert-tabs-to-spaces
+
+# Sublime Text convert spaces to tabs results
+*.sublime-convert-spaces-to-tabs
+
+# Sublime Text translate tabs to spaces results
+*.sublime-translate-tabs-to-spaces
+
+# Sublime Text translate spaces to tabs results
+*.sublime-translate-spaces-to-tabs
+
+# Sublime Text set syntax results
+*.sublime-set-syntax
+
+# Sublime Text set file type results
+*.sublime-set-file-type
+
+# Sublime Text set encoding results
+*.sublime-set-encoding
+
+# Sublime Text set line endings results
+*.sublime-set-line-endings
+
+# Sublime Text set indent results
+*.sublime-set-indent
+
+# Sublime Text set tab size results
+*.sublime-set-tab-size
+
+# Sublime Text set wrap column results
+*.sublime-set-wrap-column
+
+# Sublime Text set rulers results
+*.sublime-set-rulers
+
+# Sublime Text set word wrap results
+*.sublime-set-word-wrap
+
+# Sublime Text set spell check results
+*.sublime-set-spell-check
+
+# Sublime Text set word separators results
+*.sublime-set-word-separators
+
+# Sublime Text set auto complete results
+*.sublime-set-auto-complete
+
+# Sublime Text set auto match results
+*.sublime-set-auto-match
+
+# Sublime Text set draw white space results
+*.sublime-set-draw-white-space
+
+# Sublime Text set draw indent results
+*.sublime-set-draw-indent
+
+# Sublime Text set draw wrap results
+*.sublime-set-draw-wrap
+
+# Sublime Text set draw rulers results
+*.sublime-set-draw-rulers
+
+# Sublime Text set draw fold results
+*.sublime-set-draw-fold
+
+# Sublime Text set draw icons results
+*.sublime-set-draw-icons
+
+# Sublime Text set draw minimap results
+*.sublime-set-draw-minimap
+
+# Sublime Text set draw scroll bars results
+*.sublime-set-draw-scroll-bars
+
+# Sublime Text set draw status bar results
+*.sublime-set-draw-status-bar
+
+# Sublime Text set draw tab bar results
+*.sublime-set-draw-tab-bar
+
+# Sublime Text set draw title bar results
+*.sublime-set-draw-title-bar
+
+# Sublime Text set draw menu bar results
+*.sublime-set-draw-menu-bar
+
+# Sublime Text set draw side bar results
+*.sublime-set-draw-side-bar
+
+# Sublime Text set draw command palette results
+*.sublime-set-draw-command-palette
+
+# Sublime Text set draw quick panel results
+*.sublime-set-draw-quick-panel
+
+# Sublime Text set draw goto anything results
+*.sublime-set-draw-goto-anything
+
+# Sublime Text set draw symbol results
+*.sublime-set-draw-symbol
+
+# Sublime Text set draw definition results
+*.sublime-set-draw-definition
+
+# Sublime Text set draw reference results
+*.sublime-set-draw-reference
+
+# Sublime Text set draw implementation results
+*.sublime-set-draw-implementation
+
+# Sublime Text set draw type definition results
+*.sublime-set-draw-type-definition
+
+# Sublime Text set draw hover results
+*.sublime-set-draw-hover
+
+# Sublime Text set draw completion results
+*.sublime-set-draw-completion
+
+# Sublime Text set draw signature help results
+*.sublime-set-draw-signature-help
+
+# Sublime Text set draw code action results
+*.sublime-set-draw-code-action
+
+# Sublime Text set draw rename results
+*.sublime-set-draw-rename
+
+# Sublime Text set draw format results
+*.sublime-set-draw-format
+
+# Sublime Text set draw organize imports results
+*.sublime-set-draw-organize-imports
+
+# Sublime Text set draw refactor results
+*.sublime-set-draw-refactor
+
+# Sublime Text set draw extract results
+*.sublime-set-draw-extract
+
+# Sublime Text set draw inline results
+*.sublime-set-draw-inline
+
+# Sublime Text set draw move results
+*.sublime-set-draw-move
+
+# Sublime Text set draw change signature results
+*.sublime-set-draw-change-signature
+
+# Sublime Text set draw convert results
+*.sublime-set-draw-convert
+
+# Sublime Text set draw surround with results
+*.sublime-set-draw-surround-with
+
+# Sublime Text set draw comment results
+*.sublime-set-draw-comment
+
+# Sublime Text set draw uncomment results
+*.sublime-set-draw-uncomment
+
+# Sublime Text set draw toggle comment results
+*.sublime-set-draw-toggle-comment
+
+# Sublime Text set draw block comment results
+*.sublime-set-draw-block-comment
+
+# Sublime Text set draw line comment results
+*.sublime-set-draw-line-comment
+
+# Sublime Text set draw stream comment results
+*.sublime-set-draw-stream-comment
+
+# Sublime Text set draw box comment results
+*.sublime-set-draw-box-comment
+
+# Sublime Text set draw emoji comment results
+*.sublime-set-draw-emoji-comment
+
+# Sublime Text set draw fold results
+*.sublime-set-draw-fold
+
+# Sublime Text set draw unfold results
+*.sublime-set-draw-unfold
+
+# Sublime Text set draw toggle fold results
+*.sublime-set-draw-toggle-fold
+
+# Sublime Text set draw fold all results
+*.sublime-set-draw-fold-all
+
+# Sublime Text set draw unfold all results
+*.sublime-set-draw-unfold-all
+
+# Sublime Text set draw fold level results
+*.sublime-set-draw-fold-level
+
+# Sublime Text set draw fold markers results
+*.sublime-set-draw-fold-markers
+
+# Sublime Text set draw indent results
+*.sublime-set-draw-indent
+
+# Sublime Text set draw unindent results
+*.sublime-set-draw-unindent
+
+# Sublime Text set draw auto indent results
+*.sublime-set-draw-auto-indent
+
+# Sublime Text set draw smart indent results
+*.sublime-set-draw-smart-indent
+
+# Sublime Text set draw reindent results
+*.sublime-set-draw-reindent
+
+# Sublime Text set draw convert indent results
+*.sublime-set-draw-convert-indent
+
+# Sublime Text set draw detect indent results
+*.sublime-set-draw-detect-indent
+
+# Sublime Text set draw trim indent results
+*.sublime-set-draw-trim-indent
+
+# Sublime Text set draw trim trailing whitespace results
+*.sublime-set-draw-trim-trailing-whitespace
+
+# Sublime Text set draw ensure newline at eof results
+*.sublime-set-draw-ensure-newline-at-eof
+
+# Sublime Text set draw convert eol results
+*.sublime-set-draw-convert-eol
+
+# Sublime Text set draw convert encoding results
+*.sublime-set-draw-convert-encoding
+
+# Sublime Text set draw convert line endings results
+*.sublime-set-draw-convert-line-endings
+
+# Sublime Text set draw convert tabs to spaces results
+*.sublime-set-draw-convert-tabs-to-spaces
+
+# Sublime Text set draw convert spaces to tabs results
+*.sublime-set-draw-convert-spaces-to-tabs
+
+# Sublime Text set draw translate tabs to spaces results
+*.sublime-set-draw-translate-tabs-to-spaces
+
+# Sublime Text set draw translate spaces to tabs results
+*.sublime-set-draw-translate-spaces-to-tabs
+
+# Sublime Text set draw set syntax results
+*.sublime-set-draw-set-syntax
+
+# Sublime Text set draw set file type results
+*.sublime-set-draw-set-file-type
+
+# Sublime Text set draw set encoding results
+*.sublime-set-draw-set-encoding
+
+# Sublime Text set draw set line endings results
+*.sublime-set-draw-set-line-endings
+
+# Sublime Text set draw set indent results
+*.sublime-set-draw-set-indent
+
+# Sublime Text set draw set tab size results
+*.sublime-set-draw-set-tab-size
+
+# Sublime Text set draw set wrap column results
+*.sublime-set-draw-set-wrap-column
+
+# Sublime Text set draw set rulers results
+*.sublime-set-draw-set-rulers
+
+# Sublime Text set draw set word wrap results
+*.sublime-set-draw-set-word-wrap
+
+# Sublime Text set draw set spell check results
+*.sublime-set-draw-set-spell-check
+
+# Sublime Text set draw set word separators results
+*.sublime-set-draw-set-word-separators
+
+# Sublime Text set draw set auto complete results
+*.sublime-set-draw-set-auto-complete
+
+# Sublime Text set draw set auto match results
+*.sublime-set-draw-set-auto-match
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Log files
+*.log
+logs/
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Documentation builds
+/docs/_build/
+/site/
+
+# Junk files
+*.orig
+*.rej
+
+# Performance logs
+*.cpuprofile
+*.heapsnapshot
+
+# Memory dumps
+*.heapsnapshot
+*.cores
