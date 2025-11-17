@@ -1,0 +1,45 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter specific
+.jupyter/
+jupyter_notebook_config.py
+custom.css
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Data files (large)
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.feather
+*.parquet
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter lab
+.jupyter/lab/
+
+# Logs
+*.log
