@@ -1,0 +1,265 @@
+# Docker Gitignore - Professional DevOps Grade
+
+# Docker
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+.dockerenv
+
+# Docker build context
+.docker/
+
+# Docker volumes
+**/docker-data/
+**/docker-volumes/
+**/mysql-data/
+**/postgres-data/
+**/mongo-data/
+**/redis-data/
+
+# Kubernetes
+k8s/
+kubernetes/
+*.kubeconfig
+.kube/
+
+# Helm
+helm/
+*.tgz
+charts/
+ Chart.lock
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Packer
+packer_cache/
+*.box
+
+# Vagrant
+.vagrant/
+Vagrantfile
+
+# Container registries
+**/registry/
+**/images/
+
+# Build artifacts
+build/
+dist/
+.target/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# SSH keys
+id_rsa
+id_dsa
+*.pem
+*.key
+
+# Certificates
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Backup files
+*.backup
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Minikube
+.minikube/
+
+# Kind
+kind-*
+
+# Docker Machine
+.machine/
+
+# Rancher
+rancher/
+
+# Portainer
+portainer-data/
+
+# Swarm
+swarm-configs/
+swarm-secrets/
+
+# Docker contexts
+.contexts/
+
+# Compose override (local development)
+docker-compose.override.yml
+
+# BuildKit
+.buildkit/
+
+# ContainerD
+containerd/
+
+# Registry mirrors
+registry-mirrors/
+
+# Security scans
+*.json
+trivy/
+grype/
+anchore/
+
+# Performance data
+*.prof
+*.gcda
+*.gcno
+
+# Monitoring
+prometheus-data/
+grafana-data/
+loki-data/
+
+# Logging
+elasticsearch-data/
+fluentd-data/
+
+# Tracing
+jaeger-data/
+tempo-data/
+
+# Service mesh
+istio/
+linkerd/
+
+# Network
+.cni/
+flannel/
+
+# Storage
+ceph/
+longhorn/
+rook/
+
+# Backup and restore
+backup/
+restore/
+
+# Migration files
+migrations/
+
+# Configuration management
+ansible/
+chef/
+puppet/
+salt/
+
+# CI/CD
+.gitlab-ci.yml
+.jenkins/
+.github/workflows/
+.circleci/
+.travis.yml
+appveyor.yml
+.azure-pipelines/
+
+# Infrastructure as Code
+Pulumi.*.yaml
+pulumi/
+cdk.out/
+cdk.context.json
+
+# Cloud specific
+.aws/
+.gcp/
+.azure/
+
+# Secret files
+*_secret*
+*_password*
+*_token*
+*_key*
+
+# Binary files
+*.exe
+*.bin
+*.jar
+*.war
+*.ear
+
+# Archive files
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Documentation
+site/
+_build/
+
+# Testing
+test-results/
+coverage/
+
+# Performance testing
+k6/
+artillery/
+
+# Security
+.vault/
+*.gpg
+*.asc
+
+# Package managers
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+
+# Local development overrides
+local-overrides/
+dev-overrides/
