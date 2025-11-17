@@ -1,0 +1,93 @@
+# Linux - Comprehensive System Files
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.swn
+*.bak
+*.backup
+
+# System files
+.directory
+.Trash-*
+.trash
+*.orig
+*.rej
+
+# Thumbnail cache
+.thumbnails/
+.cache/
+
+# KDE
+.dmrc
+.local/share/Trash/
+
+# GNOME
+.gvfs/
+.zeitgeist/
+
+# X11
+.xsession-errors
+.xsession-errors.old
+.Xauthority
+
+# Desktop entries
+*.desktop
+
+# Package files
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Log files
+*.log
+syslog
+*.[0-9].gz
+*.gz
+
+# Core dumps
+core
+core.*
+*.core
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Nautilus
+.goutputstream*
+
+# IDEs
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local development
+.env
+.env.local
