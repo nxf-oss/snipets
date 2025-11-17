@@ -1,0 +1,45 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Strict Node CLI Config",
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [
+            "ES2022"
+        ],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "rootDir": "src",
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "alwaysStrict": true,
+        "noUncheckedIndexedAccess": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "skipLibCheck": false,
+        "types": [
+            "node"
+        ],
+        "allowSyntheticDefaultImports": false,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "noEmitOnError": true
+    },
+    "ts-node": {
+        "esm": true,
+        "transpileOnly": false
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "coverage"
+    ]
+}
