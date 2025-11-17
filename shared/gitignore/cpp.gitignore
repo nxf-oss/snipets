@@ -1,0 +1,323 @@
+# C++.gitignore - Professional Grade
+# Professional C/C++ Development
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Build system files
+build/
+Build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.make
+*.cmake
+!CMakeLists.txt
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.cbp
+*.workspace
+.project
+.cproject
+.autotools
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# Qt
+moc_*
+qrc_*
+ui_*
+
+# CLion
+.idea/
+cmake-build-*/
+!cmake-build-*/CMakeCache.txt
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.sdf
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.suo
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.map
+*.db
+*.idb
+*.pch
+*.pdb
+*.res
+*.resource
+
+# Eclipse
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.project
+.loadpath
+
+# CodeBlocks
+*.depend
+*.layout
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Profiling data
+*.prof
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Doxygen
+docs/html/
+docs/latex/
+doxygen_sqlite3.db
+
+# Static analysis
+.clang-tidy
+.clang-format
+compile_commands.json
+
+# Precompiled headers
+*.gch
+*.pch
+
+# LLVM/Clang
+*.bc
+*.ll
+
+# CUDA
+*.cubin
+*.ptx
+*.fatbin
+
+# OpenCL
+*.air
+
+# Fortran
+*.mod
+*.smod
+
+# Assembly
+*.lst
+*.asm
+
+# Dependency files
+*.d
+*.d.*
+
+# Autotools
+autom4te.cache/
+*.in
+aclocal.m4
+compile
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+m4/
+missing
+stamp-h1
+
+# Meson
+builddir/
+meson-private/
+meson-info/
+meson-logs/
+
+# Bazel
+bazel-*
+.bazelrc.user
+
+# Conan
+.conan/
+
+# Vcpkg
+vcpkg_installed/
+
+# Compiler-specific
+
+# GCC
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.toc
+
+# Intel
+*.ipo
+
+# Microsoft
+*.exp
+*.ilk
+*.lib
+*.pdb
+*.pgd
+*.pch
+
+# Embedded development
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+
+# Cross-compilation toolchains
+toolchains/
+sysroots/
+
+# Library specific
+
+# Boost
+bin.v2/
+stage/
+
+# OpenCV
+*.jpg
+*.png
+*.bmp
+
+# Unit test frameworks
+*.test
+*.gtest
+
+# Benchmarking results
+benchmarks/
+*.bench
+
+# Documentation
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Performance analysis
+perf.data*
+*.folded
+*.svg
