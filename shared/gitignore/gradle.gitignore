@@ -1,0 +1,23 @@
+# Gradle build outputs
+.gradle/
+build/
+out/
+bin/
+
+# Gradle cache
+.gradle/caches/
+!gradle-wrapper.jar
+
+# Local configuration
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle Wrapper (optional - include if you don't want to commit wrapper)
+# gradle/wrapper/gradle-wrapper.jar
+
+# OS files
+.DS_Store
+Thumbs.db
