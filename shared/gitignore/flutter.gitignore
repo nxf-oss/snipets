@@ -1,0 +1,2224 @@
+# Flutter Gitignore - Professional Mobile Development Grade
+
+# Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_export_environment.sh
+generated_plugin_registrant.dart
+generated_plugins/
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/**/**.keystore
+**/android/**/**.jks
+
+# iOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web
+**/web/package-lock.json
+**/web/.browserslistrc
+**/web/.dart_tool/
+**/web/build/
+**/web/.env
+**/web/.env.*
+**/web/node_modules/
+
+# Desktop
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+**/macos/Flutter/Ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/generated_plugin_registrant.h
+**/macos/Flutter/generated_plugins.cmake
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# IntelliJ
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries/
+.idea/modules.xml
+
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Coverage
+coverage/
+*.lcov
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs
+*.log
+logs/
+
+# Firebase
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Symbolication
+symbols/
+
+# Obfuscation
+app.*.map.json
+
+# Flutter build outputs
+.flutter/
+**/flutter_assets/
+
+# Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS
+**/ios/DerivedData/
+**/ios/Pods/
+
+# Web
+**/web/build/
+
+# Test
+**/test/**/coverage/
+**/test/**/.dart_tool/
+
+# Development
+.devcontainer/
+.codespaces/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Crashlytics
+crashlytics.properties
+crashlytics-build.properties
+
+# App Distribution
+appdistribution.log
+
+# Performance
+*.cpuprofile
+*.heapsnapshot
+
+# Memory
+*.heapsnapshot
+
+# Analytics
+analytics/
+
+# Localization
+**/l10n/*.arb
+**/l10n/*.g.dart
+
+# Code generation
+**/*.g.dart
+**/*.freezed.dart
+**/*.gr.dart
+**/*.moor.dart
+
+# Build runner
+.dart_tool/build/
+**/build/
+
+# Freezed
+*.freezed.dart
+
+# Json serializable
+*.g.dart
+
+# Moor
+*.moor.dart
+
+# GetIt
+*.config.dart
+
+# Injectable
+*.config.dart
+
+# State management
+*.store.dart
+
+# Riverpod
+*.riverpod.dart
+
+# Provider
+*.provider.dart
+
+# Bloc
+*.bloc.dart
+*.event.dart
+*.state.dart
+
+# Cubit
+*.cubit.dart
+
+# MobX
+*.g.dart
+
+# Redux
+*.redux.dart
+
+# Fish-Redux
+*.fish_redux.dart
+
+# GraphQL
+*.graphql.dart
+*.graphql.config.dart
+
+# Hive
+*.hive.dart
+
+# Isar
+*.isar.dart
+
+# ObjectBox
+*.objectbox.dart
+
+# Sqflite
+*.sqflite.dart
+
+# Drift
+*.drift.dart
+
+# Floor
+*.floor.dart
+
+# Realm
+*.realm.dart
+
+# Parse
+*.parse.dart
+
+# Back4app
+*.back4app.dart
+
+# Supabase
+*.supabase.dart
+
+# AWS Amplify
+*.amplify.dart
+
+# Google APIs
+*.googleapis.dart
+
+# Firebase codegen
+*.firestore.dart
+*.firebase.dart
+
+# Cloud Firestore
+*.firestore.dart
+
+# Cloud Functions
+*.functions.dart
+
+# Cloud Storage
+*.storage.dart
+
+# Authentication
+*.auth.dart
+
+# ML Kit
+*.mlkit.dart
+
+# AdMob
+*.admob.dart
+
+# In-App Purchase
+*.in_app_purchase.dart
+
+# Google Maps
+*.google_maps.dart
+
+# Google Sign-In
+*.google_sign_in.dart
+
+# Facebook Login
+*.facebook_login.dart
+
+# Apple Sign-In
+*.apple_sign_in.dart
+
+# Twitter Login
+*.twitter_login.dart
+
+# LinkedIn Login
+*.linkedin_login.dart
+
+# GitHub Login
+*.github_login.dart
+
+# Microsoft Login
+*.microsoft_login.dart
+
+# AWS Cognito
+*.cognito.dart
+
+# Auth0
+*.auth0.dart
+
+# OAuth2
+*.oauth2.dart
+
+# JWT
+*.jwt.dart
+
+# Encryption
+*.encryption.dart
+
+# Biometric
+*.biometric.dart
+
+# Local Auth
+*.local_auth.dart
+
+# Secure Storage
+*.secure_storage.dart
+
+# Shared Preferences
+*.shared_preferences.dart
+
+# Hive
+*.hive.dart
+
+# Isar
+*.isar.dart
+
+# ObjectBox
+*.objectbox.dart
+
+# Sqflite
+*.sqflite.dart
+
+# Drift
+*.drift.dart
+
+# Floor
+*.floor.dart
+
+# Realm
+*.realm.dart
+
+# Moor
+*.moor.dart
+
+# GraphQL
+*.graphql.dart
+
+# REST
+*.rest.dart
+
+# gRPC
+*.grpc.dart
+
+# WebSocket
+*.websocket.dart
+
+# Socket.io
+*.socket_io.dart
+
+# MQTT
+*.mqtt.dart
+
+# HTTP
+*.http.dart
+
+# Dio
+*.dio.dart
+
+# Chopper
+*.chopper.dart
+
+# Retrofit
+*.retrofit.dart
+
+# Serialization
+*.serialization.dart
+
+# JSON
+*.json.dart
+
+# XML
+*.xml.dart
+
+# YAML
+*.yaml.dart
+
+# CSV
+*.csv.dart
+
+# Protocol Buffers
+*.pb.dart
+*.pbenum.dart
+*.pbjson.dart
+*.pbserver.dart
+
+# FlatBuffers
+*.fbs.dart
+
+# MessagePack
+*.msgpack.dart
+
+# BSON
+*.bson.dart
+
+# Avro
+*.avro.dart
+
+# Thrift
+*.thrift.dart
+
+# ORC
+*.orc.dart
+
+# Parquet
+*.parquet.dart
+
+# Arrow
+*.arrow.dart
+
+# Avro
+*.avro.dart
+
+# ORC
+*.orc.dart
+
+# Parquet
+*.parquet.dart
+
+# Arrow
+*.arrow.dart
+
+# Excel
+*.excel.dart
+
+# PDF
+*.pdf.dart
+
+# Image
+*.image.dart
+
+# Video
+*.video.dart
+
+# Audio
+*.audio.dart
+
+# Camera
+*.camera.dart
+
+# Gallery
+*.gallery.dart
+
+# File Picker
+*.file_picker.dart
+
+# Image Picker
+*.image_picker.dart
+
+# Video Player
+*.video_player.dart
+
+# Audio Player
+*.audio_player.dart
+
+# Camera
+*.camera.dart
+
+# Sensors
+*.sensors.dart
+
+# Geolocator
+*.geolocator.dart
+
+# Location
+*.location.dart
+
+# Map
+*.map.dart
+
+# Google Maps
+*.google_maps.dart
+
+# Mapbox
+*.mapbox.dart
+
+# Here Maps
+*.here_maps.dart
+
+# OpenStreetMap
+*.open_street_map.dart
+
+# Mapillary
+*.mapillary.dart
+
+# Waze
+*.waze.dart
+
+# Yandex Maps
+*.yandex_maps.dart
+
+# Baidu Maps
+*.baidu_maps.dart
+
+# TomTom
+*.tomtom.dart
+
+# MapMyIndia
+*.mapmyindia.dart
+
+# Notification
+*.notification.dart
+
+# Local Notification
+*.local_notification.dart
+
+# Push Notification
+*.push_notification.dart
+
+# Firebase Cloud Messaging
+*.fcm.dart
+
+# OneSignal
+*.onesignal.dart
+
+# Awesome Notifications
+*.awesome_notifications.dart
+
+# Flutter Local Notifications
+*.flutter_local_notifications.dart
+
+# Permission
+*.permission.dart
+
+# Permission Handler
+*.permission_handler.dart
+
+# Device Info
+*.device_info.dart
+
+# Package Info
+*.package_info.dart
+
+# Connectivity
+*.connectivity.dart
+
+# Network Info
+*.network_info.dart
+
+# Internet Connection
+*.internet_connection.dart
+
+# Data Connection
+*.data_connection.dart
+
+# Wifi Info
+*.wifi_info.dart
+
+# Bluetooth
+*.bluetooth.dart
+
+# NFC
+*.nfc.dart
+
+# Beacon
+*.beacon.dart
+
+# QR Code
+*.qr_code.dart
+
+# Barcode
+*.barcode.dart
+
+# Scanner
+*.scanner.dart
+
+# OCR
+*.ocr.dart
+
+# ML Vision
+*.ml_vision.dart
+
+# Text Recognition
+*.text_recognition.dart
+
+# Face Detection
+*.face_detection.dart
+
+# Object Detection
+*.object_detection.dart
+
+# Image Labeling
+*.image_labeling.dart
+
+# Pose Detection
+*.pose_detection.dart
+
+# Selfie Segmentation
+*.selfie_segmentation.dart
+
+# Digital Ink Recognition
+*.digital_ink_recognition.dart
+
+# Language Identification
+*.language_identification.dart
+
+# Translation
+*.translation.dart
+
+# Smart Reply
+*.smart_reply.dart
+
+# Entity Extraction
+*.entity_extraction.dart
+
+# Custom Model
+*.custom_model.dart
+
+# AutoML
+*.automl.dart
+
+# TFLite
+*.tflite.dart
+
+# MediaPipe
+*.mediapipe.dart
+
+# PyTorch
+*.pytorch.dart
+
+# ONNX
+*.onnx.dart
+
+# Core ML
+*.core_ml.dart
+
+# TensorFlow
+*.tensorflow.dart
+
+# Charts
+*.charts.dart
+
+# Graphs
+*.graphs.dart
+
+# Animations
+*.animations.dart
+
+# Rive
+*.rive.dart
+
+# Lottie
+*.lottie.dart
+
+# Flare
+*.flare.dart
+
+# SpriteWidget
+*.spritewidget.dart
+
+# Flame
+*.flame.dart
+
+# Forge2D
+*.forge2d.dart
+
+# Box2D
+*.box2d.dart
+
+# PhysX
+*.physx.dart
+
+# Bullet
+*.bullet.dart
+
+# ODE
+*.ode.dart
+
+# Newton
+*.newton.dart
+
+# Tokamak
+*.tokamak.dart
+
+# StageXL
+*.stagexl.dart
+
+# Bonsoir
+*.bonsoir.dart
+
+# MDNS
+*.mdns.dart
+
+# SSDP
+*.ssdp.dart
+
+# UPnP
+*.upnp.dart
+
+# DLNA
+*.dlna.dart
+
+# Chromecast
+*.chromecast.dart
+
+# AirPlay
+*.airplay.dart
+
+# Miracast
+*.miracast.dart
+
+# WebRTC
+*.webrtc.dart
+
+# Socket.io
+*.socket_io.dart
+
+# SignalR
+*.signalr.dart
+
+# gRPC
+*.grpc.dart
+
+# Protocol Buffers
+*.pb.dart
+
+# FlatBuffers
+*.fbs.dart
+
+# MessagePack
+*.msgpack.dart
+
+# BSON
+*.bson.dart
+
+# Avro
+*.avro.dart
+
+# Thrift
+*.thrift.dart
+
+# ORC
+*.orc.dart
+
+# Parquet
+*.parquet.dart
+
+# Arrow
+*.arrow.dart
+
+# Excel
+*.excel.dart
+
+# PDF
+*.pdf.dart
+
+# Word
+*.word.dart
+
+# PowerPoint
+*.powerpoint.dart
+
+# CSV
+*.csv.dart
+
+# JSON
+*.json.dart
+
+# XML
+*.xml.dart
+
+# YAML
+*.yaml.dart
+
+# HTML
+*.html.dart
+
+# Markdown
+*.markdown.dart
+
+# RTF
+*.rtf.dart
+
+# Text
+*.text.dart
+
+# Rich Text
+*.rich_text.dart
+
+# Code
+*.code.dart
+
+# Syntax Highlighting
+*.syntax_highlighting.dart
+
+# Theme
+*.theme.dart
+
+# Dark Mode
+*.dark_mode.dart
+
+# Light Mode
+*.light_mode.dart
+
+# Custom Themes
+*.custom_themes.dart
+
+# Design System
+*.design_system.dart
+
+# UI Kit
+*.ui_kit.dart
+
+# Component Library
+*.component_library.dart
+
+# Widget Library
+*.widget_library.dart
+
+# Icon Library
+*.icon_library.dart
+
+# Font Library
+*.font_library.dart
+
+# Color Library
+*.color_library.dart
+
+# Gradient Library
+*.gradient_library.dart
+
+# Animation Library
+*.animation_library.dart
+
+# Transition Library
+*.transition_library.dart
+
+# Effect Library
+*.effect_library.dart
+
+# Filter Library
+*.filter_library.dart
+
+# Shader Library
+*.shader_library.dart
+
+# Render Library
+*.render_library.dart
+
+# Painting Library
+*.painting_library.dart
+
+# Drawing Library
+*.drawing_library.dart
+
+# Canvas Library
+*.canvas_library.dart
+
+# Path Library
+*.path_library.dart
+
+# Vector Library
+*.vector_library.dart
+
+# Matrix Library
+*.matrix_library.dart
+
+# Geometry Library
+*.geometry_library.dart
+
+# Math Library
+*.math_library.dart
+
+# Algorithm Library
+*.algorithm_library.dart
+
+# Data Structure Library
+*.data_structure_library.dart
+
+# Utility Library
+*.utility_library.dart
+
+# Helper Library
+*.helper_library.dart
+
+# Extension Library
+*.extension_library.dart
+
+# Mixin Library
+*.mixin_library.dart
+
+# Interface Library
+*.interface_library.dart
+
+# Abstract Library
+*.abstract_library.dart
+
+# Base Library
+*.base_library.dart
+
+# Core Library
+*.core_library.dart
+
+# Common Library
+*.common_library.dart
+
+# Shared Library
+*.shared_library.dart
+
+# Platform Library
+*.platform_library.dart
+
+# Native Library
+*.native_library.dart
+
+# FFI Library
+*.ffi_library.dart
+
+# JNI Library
+*.jni_library.dart
+
+# Objective-C Library
+*.objective_c_library.dart
+
+# Swift Library
+*.swift_library.dart
+
+# Kotlin Library
+*.kotlin_library.dart
+
+# Java Library
+*.java_library.dart
+
+# C++ Library
+*.c_plus_plus_library.dart
+
+# C Library
+*.c_library.dart
+
+# Rust Library
+*.rust_library.dart
+
+# Go Library
+*.go_library.dart
+
+# Python Library
+*.python_library.dart
+
+# JavaScript Library
+*.javascript_library.dart
+
+# TypeScript Library
+*.typescript_library.dart
+
+# Web Assembly Library
+*.web_assembly_library.dart
+
+# Cross-platform Library
+*.cross_platform_library.dart
+
+# Multi-platform Library
+*.multi_platform_library.dart
+
+# Universal Library
+*.universal_library.dart
+
+# Modular Library
+*.modular_library.dart
+
+# Plugin Library
+*.plugin_library.dart
+
+# Package Library
+*.package_library.dart
+
+# Pub Library
+*.pub_library.dart
+
+# Git Library
+*.git_library.dart
+
+# Version Control Library
+*.version_control_library.dart
+
+# CI/CD Library
+*.ci_cd_library.dart
+
+# DevOps Library
+*.devops_library.dart
+
+# Infrastructure Library
+*.infrastructure_library.dart
+
+# Cloud Library
+*.cloud_library.dart
+
+# AWS Library
+*.aws_library.dart
+
+# Google Cloud Library
+*.google_cloud_library.dart
+
+# Azure Library
+*.azure_library.dart
+
+# Firebase Library
+*.firebase_library.dart
+
+# Supabase Library
+*.supabase_library.dart
+
+# Backend Library
+*.backend_library.dart
+
+# API Library
+*.api_library.dart
+
+# REST Library
+*.rest_library.dart
+
+# GraphQL Library
+*.graphql_library.dart
+
+# gRPC Library
+*.grpc_library.dart
+
+# WebSocket Library
+*.websocket_library.dart
+
+# Socket Library
+*.socket_library.dart
+
+# Network Library
+*.network_library.dart
+
+# HTTP Library
+*.http_library.dart
+
+# Dio Library
+*.dio_library.dart
+
+# Chopper Library
+*.chopper_library.dart
+
+# Retrofit Library
+*.retrofit_library.dart
+
+# Serialization Library
+*.serialization_library.dart
+
+# JSON Library
+*.json_library.dart
+
+# XML Library
+*.xml_library.dart
+
+# YAML Library
+*.yaml_library.dart
+
+# CSV Library
+*.csv_library.dart
+
+# Database Library
+*.database_library.dart
+
+# SQL Library
+*.sql_library.dart
+
+# NoSQL Library
+*.nosql_library.dart
+
+# ORM Library
+*.orm_library.dart
+
+# Migration Library
+*.migration_library.dart
+
+# Query Library
+*.query_library.dart
+
+# Cache Library
+*.cache_library.dart
+
+# Storage Library
+*.storage_library.dart
+
+# File System Library
+*.file_system_library.dart
+
+# Local Storage Library
+*.local_storage_library.dart
+
+# Secure Storage Library
+*.secure_storage_library.dart
+
+# Keychain Library
+*.keychain_library.dart
+
+# Keystore Library
+*.keystore_library.dart
+
+# Encryption Library
+*.encryption_library.dart
+
+# Security Library
+*.security_library.dart
+
+# Cryptography Library
+*.cryptography_library.dart
+
+# Hashing Library
+*.hashing_library.dart
+
+# JWT Library
+*.jwt_library.dart
+
+# OAuth Library
+*.oauth_library.dart
+
+# Authentication Library
+*.authentication_library.dart
+
+# Authorization Library
+*.authorization_library.dart
+
+# Permission Library
+*.permission_library.dart
+
+# Role Library
+*.role_library.dart
+
+# User Library
+*.user_library.dart
+
+# Profile Library
+*.profile_library.dart
+
+# Session Library
+*.session_library.dart
+
+# Token Library
+*.token_library.dart
+
+# Validation Library
+*.validation_library.dart
+
+# Form Library
+*.form_library.dart
+
+# Input Library
+*.input_library.dart
+
+# Field Library
+*.field_library.dart
+
+# Controller Library
+*.controller_library.dart
+
+# State Management Library
+*.state_management_library.dart
+
+# Bloc Library
+*.bloc_library.dart
+
+# Cubit Library
+*.cubit_library.dart
+
+# Provider Library
+*.provider_library.dart
+
+# Riverpod Library
+*.riverpod_library.dart
+
+# GetIt Library
+*.getit_library.dart
+
+# Injectable Library
+*.injectable_library.dart
+
+# Dependency Injection Library
+*.dependency_injection_library.dart
+
+# Service Locator Library
+*.service_locator_library.dart
+
+# Factory Library
+*.factory_library.dart
+
+# Singleton Library
+*.singleton_library.dart
+
+# Prototype Library
+*.prototype_library.dart
+
+# Builder Library
+*.builder_library.dart
+
+# Factory Method Library
+*.factory_method_library.dart
+
+# Abstract Factory Library
+*.abstract_factory_library.dart
+
+# Adapter Library
+*.adapter_library.dart
+
+# Bridge Library
+*.bridge_library.dart
+
+# Composite Library
+*.composite_library.dart
+
+# Decorator Library
+*.decorator_library.dart
+
+# Facade Library
+*.facade_library.dart
+
+# Flyweight Library
+*.flyweight_library.dart
+
+# Proxy Library
+*.proxy_library.dart
+
+# Chain of Responsibility Library
+*.chain_of_responsibility_library.dart
+
+# Command Library
+*.command_library.dart
+
+# Interpreter Library
+*.interpreter_library.dart
+
+# Iterator Library
+*.iterator_library.dart
+
+# Mediator Library
+*.mediator_library.dart
+
+# Memento Library
+*.memento_library.dart
+
+# Observer Library
+*.observer_library.dart
+
+# State Library
+*.state_library.dart
+
+# Strategy Library
+*.strategy_library.dart
+
+# Template Method Library
+*.template_method_library.dart
+
+# Visitor Library
+*.visitor_library.dart
+
+# Pattern Library
+*.pattern_library.dart
+
+# Architecture Library
+*.architecture_library.dart
+
+# Clean Architecture Library
+*.clean_architecture_library.dart
+
+# Domain-Driven Design Library
+*.domain_driven_design_library.dart
+
+# Test-Driven Development Library
+*.test_driven_development_library.dart
+
+# Behavior-Driven Development Library
+*.behavior_driven_development_library.dart
+
+# Unit Test Library
+*.unit_test_library.dart
+
+# Integration Test Library
+*.integration_test_library.dart
+
+# Widget Test Library
+*.widget_test_library.dart
+
+# Golden Test Library
+*.golden_test_library.dart
+
+# Mock Library
+*.mock_library.dart
+
+# Stub Library
+*.stub_library.dart
+
+# Fake Library
+*.fake_library.dart
+
+# Spy Library
+*.spy_library.dart
+
+# Fixture Library
+*.fixture_library.dart
+
+# Factory Library
+*.factory_library.dart
+
+# Builder Library
+*.builder_library.dart
+
+# Test Data Library
+*.test_data_library.dart
+
+# Test Utility Library
+*.test_utility_library.dart
+
+# Test Helper Library
+*.test_helper_library.dart
+
+# Test Extension Library
+*.test_extension_library.dart
+
+# Test Mixin Library
+*.test_mixin_library.dart
+
+# Test Interface Library
+*.test_interface_library.dart
+
+# Test Abstract Library
+*.test_abstract_library.dart
+
+# Test Base Library
+*.test_base_library.dart
+
+# Test Core Library
+*.test_core_library.dart
+
+# Test Common Library
+*.test_common_library.dart
+
+# Test Shared Library
+*.test_shared_library.dart
+
+# Test Platform Library
+*.test_platform_library.dart
+
+# Test Native Library
+*.test_native_library.dart
+
+# Test FFI Library
+*.test_ffi_library.dart
+
+# Test JNI Library
+*.test_jni_library.dart
+
+# Test Objective-C Library
+*.test_objective_c_library.dart
+
+# Test Swift Library
+*.test_swift_library.dart
+
+# Test Kotlin Library
+*.test_kotlin_library.dart
+
+# Test Java Library
+*.test_java_library.dart
+
+# Test C++ Library
+*.test_c_plus_plus_library.dart
+
+# Test C Library
+*.test_c_library.dart
+
+# Test Rust Library
+*.test_rust_library.dart
+
+# Test Go Library
+*.test_go_library.dart
+
+# Test Python Library
+*.test_python_library.dart
+
+# Test JavaScript Library
+*.test_javascript_library.dart
+
+# Test TypeScript Library
+*.test_typescript_library.dart
+
+# Test Web Assembly Library
+*.test_web_assembly_library.dart
+
+# Test Cross-platform Library
+*.test_cross_platform_library.dart
+
+# Test Multi-platform Library
+*.test_multi_platform_library.dart
+
+# Test Universal Library
+*.test_universal_library.dart
+
+# Test Modular Library
+*.test_modular_library.dart
+
+# Test Plugin Library
+*.test_plugin_library.dart
+
+# Test Package Library
+*.test_package_library.dart
+
+# Test Pub Library
+*.test_pub_library.dart
+
+# Test Git Library
+*.test_git_library.dart
+
+# Test Version Control Library
+*.test_version_control_library.dart
+
+# Test CI/CD Library
+*.test_ci_cd_library.dart
+
+# Test DevOps Library
+*.test_devops_library.dart
+
+# Test Infrastructure Library
+*.test_infrastructure_library.dart
+
+# Test Cloud Library
+*.test_cloud_library.dart
+
+# Test AWS Library
+*.test_aws_library.dart
+
+# Test Google Cloud Library
+*.test_google_cloud_library.dart
+
+# Test Azure Library
+*.test_azure_library.dart
+
+# Test Firebase Library
+*.test_firebase_library.dart
+
+# Test Supabase Library
+*.test_supabase_library.dart
+
+# Test Backend Library
+*.test_backend_library.dart
+
+# Test API Library
+*.test_api_library.dart
+
+# Test REST Library
+*.test_rest_library.dart
+
+# Test GraphQL Library
+*.test_graphql_library.dart
+
+# Test gRPC Library
+*.test_grpc_library.dart
+
+# Test WebSocket Library
+*.test_websocket_library.dart
+
+# Test Socket Library
+*.test_socket_library.dart
+
+# Test Network Library
+*.test_network_library.dart
+
+# Test HTTP Library
+*.test_http_library.dart
+
+# Test Dio Library
+*.test_dio_library.dart
+
+# Test Chopper Library
+*.test_chopper_library.dart
+
+# Test Retrofit Library
+*.test_retrofit_library.dart
+
+# Test Serialization Library
+*.test_serialization_library.dart
+
+# Test JSON Library
+*.test_json_library.dart
+
+# Test XML Library
+*.test_xml_library.dart
+
+# Test YAML Library
+*.test_yaml_library.dart
+
+# Test CSV Library
+*.test_csv_library.dart
+
+# Test Database Library
+*.test_database_library.dart
+
+# Test SQL Library
+*.test_sql_library.dart
+
+# Test NoSQL Library
+*.test_nosql_library.dart
+
+# Test ORM Library
+*.test_orm_library.dart
+
+# Test Migration Library
+*.test_migration_library.dart
+
+# Test Query Library
+*.test_query_library.dart
+
+# Test Cache Library
+*.test_cache_library.dart
+
+# Test Storage Library
+*.test_storage_library.dart
+
+# Test File System Library
+*.test_file_system_library.dart
+
+# Test Local Storage Library
+*.test_local_storage_library.dart
+
+# Test Secure Storage Library
+*.test_secure_storage_library.dart
+
+# Test Keychain Library
+*.test_keychain_library.dart
+
+# Test Keystore Library
+*.test_keystore_library.dart
+
+# Test Encryption Library
+*.test_encryption_library.dart
+
+# Test Security Library
+*.test_security_library.dart
+
+# Test Cryptography Library
+*.test_cryptography_library.dart
+
+# Test Hashing Library
+*.test_hashing_library.dart
+
+# Test JWT Library
+*.test_jwt_library.dart
+
+# Test OAuth Library
+*.test_oauth_library.dart
+
+# Test Authentication Library
+*.test_authentication_library.dart
+
+# Test Authorization Library
+*.test_authorization_library.dart
+
+# Test Permission Library
+*.test_permission_library.dart
+
+# Test Role Library
+*.test_role_library.dart
+
+# Test User Library
+*.test_user_library.dart
+
+# Test Profile Library
+*.test_profile_library.dart
+
+# Test Session Library
+*.test_session_library.dart
+
+# Test Token Library
+*.test_token_library.dart
+
+# Test Validation Library
+*.test_validation_library.dart
+
+# Test Form Library
+*.test_form_library.dart
+
+# Test Input Library
+*.test_input_library.dart
+
+# Test Field Library
+*.test_field_library.dart
+
+# Test Controller Library
+*.test_controller_library.dart
+
+# Test State Management Library
+*.test_state_management_library.dart
+
+# Test Bloc Library
+*.test_bloc_library.dart
+
+# Test Cubit Library
+*.test_cubit_library.dart
+
+# Test Provider Library
+*.test_provider_library.dart
+
+# Test Riverpod Library
+*.test_riverpod_library.dart
+
+# Test GetIt Library
+*.test_getit_library.dart
+
+# Test Injectable Library
+*.test_injectable_library.dart
+
+# Test Dependency Injection Library
+*.test_dependency_injection_library.dart
+
+# Test Service Locator Library
+*.test_service_locator_library.dart
+
+# Test Factory Library
+*.test_factory_library.dart
+
+# Test Singleton Library
+*.test_singleton_library.dart
+
+# Test Prototype Library
+*.test_prototype_library.dart
+
+# Test Builder Library
+*.test_builder_library.dart
+
+# Test Factory Method Library
+*.test_factory_method_library.dart
+
+# Test Abstract Factory Library
+*.test_abstract_factory_library.dart
+
+# Test Adapter Library
+*.test_adapter_library.dart
+
+# Test Bridge Library
+*.test_bridge_library.dart
+
+# Test Composite Library
+*.test_composite_library.dart
+
+# Test Decorator Library
+*.test_decorator_library.dart
+
+# Test Facade Library
+*.test_facade_library.dart
+
+# Test Flyweight Library
+*.test_flyweight_library.dart
+
+# Test Proxy Library
+*.test_proxy_library.dart
+
+# Test Chain of Responsibility Library
+*.test_chain_of_responsibility_library.dart
+
+# Test Command Library
+*.test_command_library.dart
+
+# Test Interpreter Library
+*.test_interpreter_library.dart
+
+# Test Iterator Library
+*.test_iterator_library.dart
+
+# Test Mediator Library
+*.test_mediator_library.dart
+
+# Test Memento Library
+*.test_memento_library.dart
+
+# Test Observer Library
+*.test_observer_library.dart
+
+# Test State Library
+*.test_state_library.dart
+
+# Test Strategy Library
+*.test_strategy_library.dart
+
+# Test Template Method Library
+*.test_template_method_library.dart
+
+# Test Visitor Library
+*.test_visitor_library.dart
+
+# Test Pattern Library
+*.test_pattern_library.dart
+
+# Test Architecture Library
+*.test_architecture_library.dart
+
+# Test Clean Architecture Library
+*.test_clean_architecture_library.dart
+
+# Test Domain-Driven Design Library
+*.test_domain_driven_design_library.dart
+
+# Test Test-Driven Development Library
+*.test_test_driven_development_library.dart
+
+# Test Behavior-Driven Development Library
+*.test_behavior_driven_development_library.dart
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.moor.dart
+*.config.dart
+*.store.dart
+*.riverpod.dart
+*.provider.dart
+*.bloc.dart
+*.event.dart
+*.state.dart
+*.cubit.dart
+*.graphql.dart
+*.graphql.config.dart
+*.hive.dart
+*.isar.dart
+*.objectbox.dart
+*.sqflite.dart
+*.drift.dart
+*.floor.dart
+*.realm.dart
+*.parse.dart
+*.back4app.dart
+*.supabase.dart
+*.amplify.dart
+*.googleapis.dart
+*.firestore.dart
+*.firebase.dart
+*.functions.dart
+*.storage.dart
+*.auth.dart
+*.mlkit.dart
+*.admob.dart
+*.in_app_purchase.dart
+*.google_maps.dart
+*.google_sign_in.dart
+*.facebook_login.dart
+*.apple_sign_in.dart
+*.twitter_login.dart
+*.linkedin_login.dart
+*.github_login.dart
+*.microsoft_login.dart
+*.cognito.dart
+*.auth0.dart
+*.oauth2.dart
+*.jwt.dart
+*.encryption.dart
+*.biometric.dart
+*.local_auth.dart
+*.secure_storage.dart
+*.shared_preferences.dart
+*.geolocator.dart
+*.location.dart
+*.map.dart
+*.google_maps.dart
+*.mapbox.dart
+*.here_maps.dart
+*.open_street_map.dart
+*.mapillary.dart
+*.waze.dart
+*.yandex_maps.dart
+*.baidu_maps.dart
+*.tomtom.dart
+*.mapmyindia.dart
+*.notification.dart
+*.local_notification.dart
+*.push_notification.dart
+*.fcm.dart
+*.onesignal.dart
+*.awesome_notifications.dart
+*.flutter_local_notifications.dart
+*.permission.dart
+*.permission_handler.dart
+*.device_info.dart
+*.package_info.dart
+*.connectivity.dart
+*.network_info.dart
+*.internet_connection.dart
+*.data_connection.dart
+*.wifi_info.dart
+*.bluetooth.dart
+*.nfc.dart
+*.beacon.dart
+*.qr_code.dart
+*.barcode.dart
+*.scanner.dart
+*.ocr.dart
+*.ml_vision.dart
+*.text_recognition.dart
+*.face_detection.dart
+*.object_detection.dart
+*.image_labeling.dart
+*.pose_detection.dart
+*.selfie_segmentation.dart
+*.digital_ink_recognition.dart
+*.language_identification.dart
+*.translation.dart
+*.smart_reply.dart
+*.entity_extraction.dart
+*.custom_model.dart
+*.automl.dart
+*.tflite.dart
+*.mediapipe.dart
+*.pytorch.dart
+*.onnx.dart
+*.core_ml.dart
+*.tensorflow.dart
+*.charts.dart
+*.graphs.dart
+*.animations.dart
+*.rive.dart
+*.lottie.dart
+*.flare.dart
+*.spritewidget.dart
+*.flame.dart
+*.forge2d.dart
+*.box2d.dart
+*.physx.dart
+*.bullet.dart
+*.ode.dart
+*.newton.dart
+*.tokamak.dart
+*.stagexl.dart
+*.bonsoir.dart
+*.mdns.dart
+*.ssdp.dart
+*.upnp.dart
+*.dlna.dart
+*.chromecast.dart
+*.airplay.dart
+*.miracast.dart
+*.webrtc.dart
+*.socket_io.dart
+*.signalr.dart
+*.grpc.dart
+*.pb.dart
+*.fbs.dart
+*.msgpack.dart
+*.bson.dart
+*.avro.dart
+*.thrift.dart
+*.orc.dart
+*.parquet.dart
+*.arrow.dart
+*.excel.dart
+*.pdf.dart
+*.word.dart
+*.powerpoint.dart
+*.csv.dart
+*.json.dart
+*.xml.dart
+*.yaml.dart
+*.html.dart
+*.markdown.dart
+*.rtf.dart
+*.text.dart
+*.rich_text.dart
+*.code.dart
+*.syntax_highlighting.dart
+*.theme.dart
+*.dark_mode.dart
+*.light_mode.dart
+*.custom_themes.dart
+*.design_system.dart
+*.ui_kit.dart
+*.component_library.dart
+*.widget_library.dart
+*.icon_library.dart
+*.font_library.dart
+*.color_library.dart
+*.gradient_library.dart
+*.animation_library.dart
+*.transition_library.dart
+*.effect_library.dart
+*.filter_library.dart
+*.shader_library.dart
+*.render_library.dart
+*.painting_library.dart
+*.drawing_library.dart
+*.canvas_library.dart
+*.path_library.dart
+*.vector_library.dart
+*.matrix_library.dart
+*.geometry_library.dart
+*.math_library.dart
+*.algorithm_library.dart
+*.data_structure_library.dart
+*.utility_library.dart
+*.helper_library.dart
+*.extension_library.dart
+*.mixin_library.dart
+*.interface_library.dart
+*.abstract_library.dart
+*.base_library.dart
+*.core_library.dart
+*.common_library.dart
+*.shared_library.dart
+*.platform_library.dart
+*.native_library.dart
+*.ffi_library.dart
+*.jni_library.dart
+*.objective_c_library.dart
+*.swift_library.dart
+*.kotlin_library.dart
+*.java_library.dart
+*.c_plus_plus_library.dart
+*.c_library.dart
+*.rust_library.dart
+*.go_library.dart
+*.python_library.dart
+*.javascript_library.dart
+*.typescript_library.dart
+*.web_assembly_library.dart
+*.cross_platform_library.dart
+*.multi_platform_library.dart
+*.universal_library.dart
+*.modular_library.dart
+*.plugin_library.dart
+*.package_library.dart
+*.pub_library.dart
+*.git_library.dart
+*.version_control_library.dart
+*.ci_cd_library.dart
+*.devops_library.dart
+*.infrastructure_library.dart
+*.cloud_library.dart
+*.aws_library.dart
+*.google_cloud_library.dart
+*.azure_library.dart
+*.firebase_library.dart
+*.supabase_library.dart
+*.backend_library.dart
+*.api_library.dart
+*.rest_library.dart
+*.graphql_library.dart
+*.grpc_library.dart
+*.websocket_library.dart
+*.socket_library.dart
+*.network_library.dart
+*.http_library.dart
+*.dio_library.dart
+*.chopper_library.dart
+*.retrofit_library.dart
+*.serialization_library.dart
+*.json_library.dart
+*.xml_library.dart
+*.yaml_library.dart
+*.csv_library.dart
+*.database_library.dart
+*.sql_library.dart
+*.nosql_library.dart
+*.orm_library.dart
+*.migration_library.dart
+*.query_library.dart
+*.cache_library.dart
+*.storage_library.dart
+*.file_system_library.dart
+*.local_storage_library.dart
+*.secure_storage_library.dart
+*.keychain_library.dart
+*.keystore_library.dart
+*.encryption_library.dart
+*.security_library.dart
+*.cryptography_library.dart
+*.hashing_library.dart
+*.jwt_library.dart
+*.oauth_library.dart
+*.authentication_library.dart
+*.authorization_library.dart
+*.permission_library.dart
+*.role_library.dart
+*.user_library.dart
+*.profile_library.dart
+*.session_library.dart
+*.token_library.dart
+*.validation_library.dart
+*.form_library.dart
+*.input_library.dart
+*.field_library.dart
+*.controller_library.dart
+*.state_management_library.dart
+*.bloc_library.dart
+*.cubit_library.dart
+*.provider_library.dart
+*.riverpod_library.dart
+*.getit_library.dart
+*.injectable_library.dart
+*.dependency_injection_library.dart
+*.service_locator_library.dart
+*.factory_library.dart
+*.singleton_library.dart
+*.prototype_library.dart
+*.builder_library.dart
+*.factory_method_library.dart
+*.abstract_factory_library.dart
+*.adapter_library.dart
+*.bridge_library.dart
+*.composite_library.dart
+*.decorator_library.dart
+*.facade_library.dart
+*.flyweight_library.dart
+*.proxy_library.dart
+*.chain_of_responsibility_library.dart
+*.command_library.dart
+*.interpreter_library.dart
+*.iterator_library.dart
+*.mediator_library.dart
+*.memento_library.dart
+*.observer_library.dart
+*.state_library.dart
+*.strategy_library.dart
+*.template_method_library.dart
+*.visitor_library.dart
+*.pattern_library.dart
+*.architecture_library.dart
+*.clean_architecture_library.dart
+*.domain_driven_design_library.dart
+*.test_driven_development_library.dart
+*.behavior_driven_development_library.dart
+*.unit_test_library.dart
+*.integration_test_library.dart
+*.widget_test_library.dart
+*.golden_test_library.dart
+*.mock_library.dart
+*.stub_library.dart
+*.fake_library.dart
+*.spy_library.dart
+*.fixture_library.dart
+*.test_data_library.dart
+*.test_utility_library.dart
+*.test_helper_library.dart
+*.test_extension_library.dart
+*.test_mixin_library.dart
+*.test_interface_library.dart
+*.test_abstract_library.dart
+*.test_base_library.dart
+*.test_core_library.dart
+*.test_common_library.dart
+*.test_shared_library.dart
+*.test_platform_library.dart
+*.test_native_library.dart
+*.test_ffi_library.dart
+*.test_jni_library.dart
+*.test_objective_c_library.dart
+*.test_swift_library.dart
+*.test_kotlin_library.dart
+*.test_java_library.dart
+*.test_c_plus_plus_library.dart
+*.test_c_library.dart
+*.test_rust_library.dart
+*.test_go_library.dart
+*.test_python_library.dart
+*.test_javascript_library.dart
+*.test_typescript_library.dart
+*.test_web_assembly_library.dart
+*.test_cross_platform_library.dart
+*.test_multi_platform_library.dart
+*.test_universal_library.dart
+*.test_modular_library.dart
+*.test_plugin_library.dart
+*.test_package_library.dart
+*.test_pub_library.dart
+*.test_git_library.dart
+*.test_version_control_library.dart
+*.test_ci_cd_library.dart
+*.test_devops_library.dart
+*.test_infrastructure_library.dart
+*.test_cloud_library.dart
+*.test_aws_library.dart
+*.test_google_cloud_library.dart
+*.test_azure_library.dart
+*.test_firebase_library.dart
+*.test_supabase_library.dart
+*.test_backend_library.dart
+*.test_api_library.dart
+*.test_rest_library.dart
+*.test_graphql_library.dart
+*.test_grpc_library.dart
+*.test_websocket_library.dart
+*.test_socket_library.dart
+*.test_network_library.dart
+*.test_http_library.dart
+*.test_dio_library.dart
+*.test_chopper_library.dart
+*.test_retrofit_library.dart
+*.test_serialization_library.dart
+*.test_json_library.dart
+*.test_xml_library.dart
+*.test_yaml_library.dart
+*.test_csv_library.dart
+*.test_database_library.dart
+*.test_sql_library.dart
+*.test_nosql_library.dart
+*.test_orm_library.dart
+*.test_migration_library.dart
+*.test_query_library.dart
+*.test_cache_library.dart
+*.test_storage_library.dart
+*.test_file_system_library.dart
+*.test_local_storage_library.dart
+*.test_secure_storage_library.dart
+*.test_keychain_library.dart
+*.test_keystore_library.dart
+*.test_encryption_library.dart
+*.test_security_library.dart
+*.test_cryptography_library.dart
+*.test_hashing_library.dart
+*.test_jwt_library.dart
+*.test_oauth_library.dart
+*.test_authentication_library.dart
+*.test_authorization_library.dart
+*.test_permission_library.dart
+*.test_role_library.dart
+*.test_user_library.dart
+*.test_profile_library.dart
+*.test_session_library.dart
+*.test_token_library.dart
+*.test_validation_library.dart
+*.test_form_library.dart
+*.test_input_library.dart
+*.test_field_library.dart
+*.test_controller_library.dart
+*.test_state_management_library.dart
+*.test_bloc_library.dart
+*.test_cubit_library.dart
+*.test_provider_library.dart
+*.test_riverpod_library.dart
+*.test_getit_library.dart
+*.test_injectable_library.dart
+*.test_dependency_injection_library.dart
+*.test_service_locator_library.dart
+*.test_factory_library.dart
+*.test_singleton_library.dart
+*.test_prototype_library.dart
+*.test_builder_library.dart
+*.test_factory_method_library.dart
+*.test_abstract_factory_library.dart
+*.test_adapter_library.dart
+*.test_bridge_library.dart
+*.test_composite_library.dart
+*.test_decorator_library.dart
+*.test_facade_library.dart
+*.test_flyweight_library.dart
+*.test_proxy_library.dart
+*.test_chain_of_responsibility_library.dart
+*.test_command_library.dart
+*.test_interpreter_library.dart
+*.test_iterator_library.dart
+*.test_mediator_library.dart
+*.test_memento_library.dart
+*.test_observer_library.dart
+*.test_state_library.dart
+*.test_strategy_library.dart
+*.test_template_method_library.dart
+*.test_visitor_library.dart
+*.test_pattern_library.dart
+*.test_architecture_library.dart
+*.test_clean_architecture_library.dart
+*.test_domain_driven_design_library.dart
+*.test_test_driven_development_library.dart
+*.test_behavior_driven_development_library.dart
