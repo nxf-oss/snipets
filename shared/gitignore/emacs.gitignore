@@ -1,0 +1,460 @@
+# Emacs Gitignore - Professional Editor Grade
+
+# Byte-compiled / optimized / DLL files
+*.elc
+*.eln
+*.el.gz
+*.el.xz
+
+# Auto-save files
+*~
+\#*\#
+.\#*
+
+# Lock files
+.*.lock
+*.#*
+
+# Backup files
+*.bak
+*.backup
+
+# Auto-save list
+.saves-*
+
+
+# Persistent session save file
+.emacs.desktop
+.emacs.desktop.lock
+
+# Custom configuration
+custom.el
+custom-*.el
+
+# Package files
+elpa/
+packages/
+elpa-archives/
+quelpa/
+
+# Projectile
+.projectile
+.projectile-bookmarks.eld
+
+# Bookmarks
+bookmarks
+bookmarks.*
+
+# Recent files
+recentf
+recentf.*
+
+# Saveplace
+places
+places.*
+
+# Eshell
+eshell/
+eshell/history
+eshell/lastdir
+
+# Tramp
+tramp
+tramp.*
+
+# Authinfo
+.authinfo
+.authinfo.gpg
+.authinfo.gpg~
+.netrc
+
+# Gnus
+.bbdb
+.newsrc-dribble
+.newsrc.eld
+nnml/
+nnfolder/
+
+# ERC
+erc/
+erc/logs/
+
+# Org-mode
+org-id-locations
+org-clock-save.el
+org-publish-timestamp-*
+org-publish-cache-*
+
+# Ivy
+ivy-history
+ivy-occur-*
+
+# Counsel
+counsel-etags-*
+
+# LSP
+.lsp-session-v1
+eglot-*
+lsp-session-*
+
+# Dired
+dired-*
+.dired-*
+
+# Minibuffer
+minibuffer-history
+minibuffer-*
+
+# Compilation
+compilation-*
+
+# Grep
+grep-*
+
+# Flymake
+flymake-*
+flycheck-*
+
+# Company
+company-statistics-*
+
+# Yasnippet
+yas-compiled-directory
+yas-*
+
+# Project
+projectile-bookmarks.eld
+projectile.cache
+
+# Magit
+magit-*
+magit-refresh-*
+
+# Git
+git-commit-*
+
+# VC
+vc-diff-*
+vc-annotate-*
+
+# Debug
+debug-*
+
+# Backtrace
+*backtrace*
+
+# Core dumps
+core
+*.core
+
+# Performance
+profile
+*.prof
+
+# Garbage collection
+garbage-*
+
+# Desktop save
+.emacs.desktop
+.desktop
+
+# Session
+session-*
+.emacs.session
+
+# Registers
+registers-*
+
+# Undo tree
+undo-tree-*
+undo-fu-session-*
+
+# Persistent scratch
+persistent-scratch
+*scratch*
+
+# Temp files
+/tmp/
+/temp/
+*autoloads.el
+loaddefs.el
+
+# Custom themes
+custom-theme-*
+theme-*
+
+# Package-quickstart
+package-quickstart.el
+package-quickstart.elc
+
+# Early init
+early-init.el
+early-init.elc
+
+# Site-start
+site-start.el
+site-start.elc
+
+# Default directory
+default-directory
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lock files for Windows
+*~*.lnk
+
+# Spell checking
+.ispell_
+aspell-*
+
+# PDF tools
+pdf-view-*
+
+# Nov (epub)
+nov-*
+
+# EWW
+eww-*
+
+# SQL
+sql-*
+
+# Python
+python-*
+
+# JavaScript
+js-*
+json-*
+
+# Markdown
+markdown-*
+
+# YAML
+yaml-*
+
+# XML
+xml-*
+nxml-*
+
+# HTML
+html-*
+sgml-*
+
+# CSS
+css-*
+
+# Docker
+docker-*
+
+# Terraform
+terraform-*
+
+# Ansible
+ansible-*
+
+# Kubernetes
+kubernetes-*
+
+# Lisp
+lisp-*
+slime-*
+
+# Clojure
+clojure-*
+cider-*
+
+# Rust
+rust-*
+racer-*
+rustfmt-*
+
+# Go
+go-*
+gofmt-*
+
+# Haskell
+haskell-*
+
+# OCaml
+ocaml-*
+
+# Ruby
+ruby-*
+
+# PHP
+php-*
+
+# Java
+java-*
+meghanada-*
+
+# C/C++
+c-*
+c++-*
+cmake-*
+
+# Shell
+shell-*
+sh-*
+bash-*
+zsh-*
+fish-*
+
+# Terminal
+term-*
+vterm-*
+eshell-*
+
+# Comint
+comint-*
+
+# Process
+process-*
+
+# Compile
+compile-*
+
+# GUD
+gud-*
+
+# Debugger
+debug-*
+realgud-*
+
+# DAP
+dap-*
+
+# Eglot
+eglot-*
+
+# LSP
+lsp-*
+
+# Treesitter
+treesit-*
+
+# Corfu
+corfu-*
+
+# Vertico
+vertico-*
+
+# Orderless
+orderless-*
+
+# Marginalia
+marginalia-*
+
+# Embark
+embark-*
+
+# Consult
+consult-*
+
+# Savehist
+savehist-*
+
+# History
+history-*
+
+# Recentf
+recentf-*
+
+# Bookmarks
+bookmarks-*
+
+# Saveplace
+saveplace-*
+
+# Desktop
+desktop-*
+
+# Session
+session-*
+
+# Server
+server/
+server.*
+
+# Client
+client-*
+
+# Frame
+frame-*
+
+# Window
+window-*
+
+# Buffer
+buffer-*
+
+# Mode line
+mode-line-*
+
+# Font
+font-*
+
+# Face
+face-*
+
+# Theme
+theme-*
+
+# Custom
+custom-*
+
+# Package
+package-*
+
+# Use-package
+use-package-*
+
+# Straight
+straight/
+straight-*
+
+# Borg
+borg/
+
+# Quelpa
+quelpa/
+quelpa-*
+
+# El-get
+el-get/
+el-get-*
+
+# Leaf
+leaf-*
+
+# Doom Emacs
+.doom.d/
+doom-*
+
+# Spacemacs
+.spacemacs
+.spacemacs.env
+.spacemacs.d/
+
+# Chemacs
+.chemacs.el
+.chemacs.d/
+
+# Prelude
+.prelude.el
+
+# Custom configurations
+.config/emacs/
+.emacs.d/
+.init.el
+._emacs
+
+# Temporary directories
+auto-save-list/
+backup/
+cache/
+etc/
+var/
