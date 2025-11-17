@@ -1,0 +1,668 @@
+# Svelte Gitignore - Professional Frontend Development Grade
+
+# Svelte build output
+.svelte-kit/
+.build/
+/build/
+/dist/
+/package/
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Cache directories
+.cache/
+.turbo/
+.nuxt/
+.next/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Svelte specific
+.svelte/
+.svelte-kit/
+/src/app.html
+/src/routes.html
+/src/service-worker.js
+/src/hooks.js
+/src/hooks.server.js
+/src/hooks.client.js
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+
+# SvelteKit
+.svelte-kit/
+/build/
+/package/
+
+# Svelte Preprocess
+.svelte-preprocess/
+
+# Svelte SSR
+ssr/
+ssr-manifest.json
+
+# Svelte client manifest
+client-manifest.json
+
+# Svelte types
+.svelte/types.d.ts
+
+# Sapper
+__sapper__/
+src/node_modules/@sapper/
+
+# Rollup (if using rollup with Svelte)
+rollup.config.js
+rollup.output.*
+
+# Webpack (if using webpack with Svelte)
+webpack.config.js
+webpack.*.js
+
+# Snowpack
+.snowpack/
+snowpack.config.js
+snowpack.*.js
+
+# Svelte Testing Library
+src/**/__tests__/
+src/**/__mocks__/
+
+# Svelte Storybook
+storybook-static/
+.storybook/
+*.stories.svelte
+*.stories.js
+*.stories.ts
+
+# Svelte Add
+svelte-add/
+
+# Routify
+.routify/
+.routify-cache/
+
+# Svelte Material UI
+.smui/
+
+# Svelte Navigation
+.svelte-navigation/
+
+# Svelte Store
+.svelte-store/
+
+# Svelte Transition
+.svelte-transition/
+
+# Svelte Action
+.svelte-action/
+
+# Svelte Animation
+.svelte-animation/
+
+# Svelte Easing
+.svelte-easing/
+
+# Svelte Spring
+.svelte-spring/
+
+# Svelte Motion
+.svelte-motion/
+
+# Svelte Gesture
+.svelte-gesture/
+
+# Svelte Virtual List
+.svelte-virtual-list/
+
+# Svelte Infinite Scroll
+.svelte-infinite-scroll/
+
+# Svelte Lazy
+.svelte-lazy/
+
+# Svelte Portal
+.svelte-portal/
+
+# Svelte Head
+.svelte-head/
+
+# Svelte Body
+.svelte-body/
+
+# Svelte Meta
+.svelte-meta/
+
+# Svelte Script
+.svelte-script/
+
+# Svelte Style
+.svelte-style/
+
+# Svelte Link
+.svelte-link/
+
+# Svelte Title
+.svelte-title/
+
+# Svelte Base
+.svelte-base/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Local Netlify folder
+.netlify
+
+# Production build cache
+**/build/
+**/.rspack/
+
+# Testing
+__tests__/__snapshots__/
+
+# Temporary folders
+tmp/
+temp/
+
+# Local development
+*.local
+
+# Package manager specific
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Database files (if using local DB)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.backup
+*.bak
+
+# Certificate files
+*.pem
+*.crt
+*.key
+*.csr
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+*.ogg
+
+# Documentation builds
+/docs/_build/
+/site/
+
+# Junk files
+*.orig
+*.rej
+
+# Performance logs
+*.cpuprofile
+*.heapsnapshot
+
+# Memory dumps
+*.heapsnapshot
+*.cores
+
+# Svelte compiler output
+*.svelte.js
+*.svelte.ts
+
+# Svelte preprocessor output
+*.svelte.preprocessed
+
+# Svelte hydrate output
+*.svelte.hydrate
+
+# Svelte SSR output
+*.svelte.ssr
+
+# Svelte client output
+*.svelte.client
+
+# Svelte module output
+*.svelte.module
+
+# Svelte legacy output
+*.svelte.legacy
+
+# Svelte modern output
+*.svelte.modern
+
+# Svelte esm output
+*.svelte.esm
+
+# Svelte cjs output
+*.svelte.cjs
+
+# Svelte umd output
+*.svelte.umd
+
+# Svelte iife output
+*.svelte.iife
+
+# Svelte system output
+*.svelte.system
+
+# Svelte amd output
+*.svelte.amd
+
+# Svelte global output
+*.svelte.global
+
+# Svelte browser output
+*.svelte.browser
+
+# Svelte node output
+*.svelte.node
+
+# Svelte deno output
+*.svelte.deno
+
+# Svelte worker output
+*.svelte.worker
+
+# Svelte service worker output
+*.svelte.service-worker
+
+# Svelte web worker output
+*.svelte.web-worker
+
+# Svelte shared worker output
+*.svelte.shared-worker
+
+# Svelte dedicated worker output
+*.svelte.dedicated-worker
+
+# Svelte module worker output
+*.svelte.module-worker
+
+# Svelte classic worker output
+*.svelte.classic-worker
+
+# Svelte modern worker output
+*.svelte.modern-worker
+
+# Svelte legacy worker output
+*.svelte.legacy-worker
+
+# Svelte esm worker output
+*.svelte.esm-worker
+
+# Svelte cjs worker output
+*.svelte.cjs-worker
+
+# Svelte umd worker output
+*.svelte.umd-worker
+
+# Svelte iife worker output
+*.svelte.iife-worker
+
+# Svelte system worker output
+*.svelte.system-worker
+
+# Svelte amd worker output
+*.svelte.amd-worker
+
+# Svelte global worker output
+*.svelte.global-worker
+
+# Svelte browser worker output
+*.svelte.browser-worker
+
+# Svelte node worker output
+*.svelte.node-worker
+
+# Svelte deno worker output
+*.svelte.deno-worker
+
+# Svelte compiler cache
+.svelte/compiler-cache/
+
+# Svelte preprocessor cache
+.svelte/preprocessor-cache/
+
+# Svelte SSR cache
+.svelte/ssr-cache/
+
+# Svelte client cache
+.svelte/client-cache/
+
+# Svelte module cache
+.svelte/module-cache/
+
+# Svelte legacy cache
+.svelte/legacy-cache/
+
+# Svelte modern cache
+.svelte/modern-cache/
+
+# Svelte esm cache
+.svelte/esm-cache/
+
+# Svelte cjs cache
+.svelte/cjs-cache/
+
+# Svelte umd cache
+.svelte/umd-cache/
+
+# Svelte iife cache
+.svelte/iife-cache/
+
+# Svelte system cache
+.svelte/system-cache/
+
+# Svelte amd cache
+.svelte/amd-cache/
+
+# Svelte global cache
+.svelte/global-cache/
+
+# Svelte browser cache
+.svelte/browser-cache/
+
+# Svelte node cache
+.svelte/node-cache/
+
+# Svelte deno cache
+.svelte/deno-cache/
+
+# Svelte worker cache
+.svelte/worker-cache/
+
+# Svelte service worker cache
+.svelte/service-worker-cache/
+
+# Svelte web worker cache
+.svelte/web-worker-cache/
+
+# Svelte shared worker cache
+.svelte/shared-worker-cache/
+
+# Svelte dedicated worker cache
+.svelte/dedicated-worker-cache/
+
+# Svelte module worker cache
+.svelte/module-worker-cache/
+
+# Svelte classic worker cache
+.svelte/classic-worker-cache/
+
+# Svelte modern worker cache
+.svelte/modern-worker-cache/
+
+# Svelte legacy worker cache
+.svelte/legacy-worker-cache/
+
+# Svelte esm worker cache
+.svelte/esm-worker-cache/
+
+# Svelte cjs worker cache
+.svelte/cjs-worker-cache/
+
+# Svelte umd worker cache
+.svelte/umd-worker-cache/
+
+# Svelte iife worker cache
+.svelte/iife-worker-cache/
+
+# Svelte system worker cache
+.svelte/system-worker-cache/
+
+# Svelte amd worker cache
+.svelte/amd-worker-cache/
+
+# Svelte global worker cache
+.svelte/global-worker-cache/
+
+# Svelte browser worker cache
+.svelte/browser-worker-cache/
+
+# Svelte node worker cache
+.svelte/node-worker-cache/
+
+# Svelte deno worker cache
+.svelte/deno-worker-cache/
+
+# Svelte compiler output cache
+.svelte/compiler-output-cache/
+
+# Svelte preprocessor output cache
+.svelte/preprocessor-output-cache/
+
+# Svelte SSR output cache
+.svelte/ssr-output-cache/
+
+# Svelte client output cache
+.svelte/client-output-cache/
+
+# Svelte module output cache
+.svelte/module-output-cache/
+
+# Svelte legacy output cache
+.svelte/legacy-output-cache/
+
+# Svelte modern output cache
+.svelte/modern-output-cache/
+
+# Svelte esm output cache
+.svelte/esm-output-cache/
+
+# Svelte cjs output cache
+.svelte/cjs-output-cache/
+
+# Svelte umd output cache
+.svelte/umd-output-cache/
+
+# Svelte iife output cache
+.svelte/iife-output-cache/
+
+# Svelte system output cache
+.svelte/system-output-cache/
+
+# Svelte amd output cache
+.svelte/amd-output-cache/
+
+# Svelte global output cache
+.svelte/global-output-cache/
+
+# Svelte browser output cache
+.svelte/browser-output-cache/
+
+# Svelte node output cache
+.svelte/node-output-cache/
+
+# Svelte deno output cache
+.svelte/deno-output-cache/
+
+# Svelte worker output cache
+.svelte/worker-output-cache/
+
+# Svelte service worker output cache
+.svelte/service-worker-output-cache/
+
+# Svelte web worker output cache
+.svelte/web-worker-output-cache/
+
+# Svelte shared worker output cache
+.svelte/shared-worker-output-cache/
+
+# Svelte dedicated worker output cache
+.svelte/dedicated-worker-output-cache/
+
+# Svelte module worker output cache
+.svelte/module-worker-output-cache/
+
+# Svelte classic worker output cache
+.svelte/classic-worker-output-cache/
+
+# Svelte modern worker output cache
+.svelte/modern-worker-output-cache/
+
+# Svelte legacy worker output cache
+.svelte/legacy-worker-output-cache/
+
+# Svelte esm worker output cache
+.svelte/esm-worker-output-cache/
+
+# Svelte cjs worker output cache
+.svelte/cjs-worker-output-cache/
+
+# Svelte umd worker output cache
+.svelte/umd-worker-output-cache/
+
+# Svelte iife worker output cache
+.svelte/iife-worker-output-cache/
+
+# Svelte system worker output cache
+.svelte/system-worker-output-cache/
+
+# Svelte amd worker output cache
+.svelte/amd-worker-output-cache/
+
+# Svelte global worker output cache
+.svelte/global-worker-output-cache/
+
+# Svelte browser worker output cache
+.svelte/browser-worker-output-cache/
+
+# Svelte node worker output cache
+.svelte/node-worker-output-cache/
+
+# Svelte deno worker output cache
+.svelte/deno-worker-output-cache/
