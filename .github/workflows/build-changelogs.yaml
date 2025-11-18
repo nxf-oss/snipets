@@ -12,11 +12,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout full repository
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0   # penting agar git log lengkap
 
+      # 2️⃣ Cek apakah commit terakhir sudah skip changelog
       - name: Check if last commit is a changelog commit
         id: skip_check
         run: |
@@ -27,20 +29,23 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
 
+      # 3️⃣ Skip workflow jika commit terakhir adalah changelog
       - name: Skip workflow if changelog commit
         if: steps.skip_check.outputs.skip == 'true'
         run: |
-          echo "Skipping because commit is marked [skip-changelog]"
+          echo "Skipping workflow because commit is marked [skip-changelog]"
           exit 0
 
+      # 4️⃣ Jalankan generator changelog
       - name: Run changelog generator script
         run: |
           chmod +x ./scripts/changelogs-generator.sh
           ./scripts/changelogs-generator.sh
 
+      # 5️⃣ Commit & push changelog
       - name: Commit & Push Changelog
         env:
-          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}  # PAT harus punya write access repo
         run: |
           git config user.name "Gitea Actions"
           git config user.email "actions@gitea.local"
@@ -54,5 +59,11 @@ jobs:
           git add CHANGELOG.md
           git commit -m "chore: update changelog [skip-changelog]"
 
-          # push menggunakan PAT
+          # push menggunakan PAT, tanpa trailing slash
           git push https://$GITHUB_PAT@github.com/nxf-oss/snipets.git
+
+      # 6️⃣ Opsional: tampilkan log terakhir changelog
+      - name: Show last changelog changes
+        run: |
+          echo "Last 10 lines of CHANGELOG.md:"
+          tail -n 10 CHANGELOG.md
