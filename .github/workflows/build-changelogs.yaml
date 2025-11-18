@@ -39,20 +39,19 @@ jobs:
           ./scripts/changelogs-generator.sh
 
       - name: Commit & Push Changelog
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "Gitea Actions"
-          git config user.email "actions@gitea.local"
+  env:
+    GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+  run: |
+    git config user.name "Gitea Actions"
+    git config user.email "actions@gitea.local"
 
-          # only commit if changelog changed
-          if git diff --quiet CHANGELOG.md; then
-            echo "No changes in CHANGELOG.md. Skipping commit."
-            exit 0
-          fi
+    if git diff --quiet CHANGELOG.md; then
+      echo "No changes in CHANGELOG.md. Skipping commit."
+      exit 0
+    fi
 
-          git add CHANGELOG.md
-          git commit -m "chore: update changelog [skip-changelog]"
+    git add CHANGELOG.md
+    git commit -m "chore: update changelog [skip-changelog]"
 
-          # gunakan token untuk push
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+    git push https://$GITHUB_PAT@github.com/${{ github.repository }}.git
+
