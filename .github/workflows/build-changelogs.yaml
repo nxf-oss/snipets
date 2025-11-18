@@ -44,6 +44,8 @@ jobs:
 
       # 5️⃣ Commit & push changelog jika ada perubahan
       - name: Commit & Push Changelog
+        env:
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}  # masukkan PAT di Secrets
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
@@ -56,8 +58,8 @@ jobs:
           git add CHANGELOG.md
           git commit -m "chore: update changelog [skip-changelog]"
 
-          # Push menggunakan GITHUB_TOKEN
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          # Push menggunakan PAT
+          git push https://$GITHUB_PAT@github.com/${{ github.repository }}.git
 
       # 6️⃣ Opsional: tampilkan log terakhir changelog
       - name: Show last changelog changes
