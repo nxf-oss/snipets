@@ -12,43 +12,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository full history
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          token: ${{ secrets.MY_GITHUB_PAT }}
 
-      # 2️⃣ Cek apakah commit terakhir sudah skip changelog
       - name: Check if last commit is a changelog commit
         id: skip_check
         run: |
           MSG=$(git log -1 --pretty=%B | tr '[:upper:]' '[:lower:]')
+          echo "Last commit message: $MSG"
           if echo "$MSG" | grep -q "skip-changelog"; then
             echo "skip=true" >> $GITHUB_OUTPUT
           else
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
 
-      # 3️⃣ Skip workflow jika commit terakhir adalah changelog
-      - name: Skip workflow if changelog commit
+      - name: Skip workflow if last commit is changelog
         if: steps.skip_check.outputs.skip == 'true'
         run: |
-          echo "Skipping workflow because commit is marked [skip-changelog]"
+          echo "Skipping workflow because last commit is [skip-changelog]"
           exit 0
 
-      # 4️⃣ Jalankan generator changelog
       - name: Run changelog generator script
         run: |
           chmod +x ./scripts/changelogs-generator.sh
           ./scripts/changelogs-generator.sh
 
-      # 5️⃣ Commit & push changelog jika ada perubahan
       - name: Commit & Push Changelog
-        env:
-          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+
+          echo "Checking for changes in CHANGELOG.md"
+          git status
+          git diff CHANGELOG.md || true
 
           if git diff --quiet CHANGELOG.md; then
             echo "No changes in CHANGELOG.md. Skipping commit."
@@ -58,13 +57,9 @@ jobs:
           git add CHANGELOG.md
           git commit -m "chore: update changelog [skip-changelog]"
 
-          # ✅ Override remote agar push pakai PAT
-          git remote set-url origin https://$GITHUB_PAT@github.com/${{ github.repository }}.git
-
-          # Push ke main
+          echo "Pushing changes to main"
           git push origin main
 
-      # 6️⃣ Opsional: tampilkan log terakhir changelog
       - name: Show last changelog changes
         run: |
           echo "Last 10 lines of CHANGELOG.md:"
